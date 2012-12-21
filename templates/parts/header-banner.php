@@ -24,7 +24,7 @@
 	<!-- header -->
 	<header id="header" role="banner">
 		<div id="logo-main">
-			<a href="http://commons.mla.org/"><img src="/wp-content/themes/cbox-mla-blog/assets/images/mla-commons-logo_smaller.png" height="30" width="203" border="0" alt="MLA Commons"/></a>
+			<a href="http://commons.mla.org/"><img src="<?php echo get_stylesheet_directory_uri().'/assets/images/mla-commons-logo_smaller.png' ?>" height="30" width="203" border="0" alt="MLA Commons"/></a>
 		</div>
 		<div id="logo-menu-wrap">
 			<?php
