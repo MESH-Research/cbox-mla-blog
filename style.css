@@ -21,7 +21,11 @@ Template: cbox-theme
 
 @import url(http://fonts.googleapis.com/css?family=Rokkitt:400,700);
 
-#wrapper { padding:0px; }
+#wrapper { 
+	padding:0px; 
+	padding-top: 25px; /* fix for the admin toolbar that is now full-width */ 
+
+}
 body {background:#fff; border-top:0px none;}
 body.theme-option {background-image:none;}
 a { color:#0066cc; }
@@ -47,30 +51,18 @@ div#object-nav.item-list-tabs li { font-size:15.5px; }
 Styles for the Admin Bar (formerly Buddybar)
 --------------------------------------------------------------*/
 #wpadminbar {
-	position: absolute !important;
-	top: 0px !important;
-	left: 50% !important; /* centers adminbar */
-	margin-left: -605px !important; /* must be half of the width of next line */
-	width: 1150px !important; /* must be same width as #wrapper in _inc/css/default.css */
-	background: transparent !important;
-	z-index: auto !important;
 }
 #wpadminbar, #wpadminbar * { font: 12px/28px sans-serif !important; }
 #wpadminbar .quicklinks {
 	width: auto !important;
-	float: right !important;
 	border: none !important;
 	z-index: 99999 !important;
 }
 #wpadminbar .ab-top-menu,
 #wpadminbar .ab-top-secondary {
-	float: left !important;
 	margin: 0 0 0 15px  !important;
 	border: 0px none #ccc  !important;
 	background: url("") repeat-x scroll center top #cc0000 !important;
-	-webkit-border-radius: 0px 0px 10px 10px;
-	-moz-border-radius: 0px 0px 10px 10px;
-	border-radius: 0px 0px 10px 10px;
 }
 #wpadminbar * {
 	text-shadow: none !important;
