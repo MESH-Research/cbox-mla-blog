@@ -21,6 +21,10 @@ Template: cbox-theme
 
 @import url(http://fonts.googleapis.com/css?family=Rokkitt:400,700);
 
+.mobile-menu-container { 
+	z-index: 999999; 
+} 
+
 #wrapper { 
 	padding:0px; 
 	padding-top: 25px; /* fix for the admin toolbar that is now full-width */ 
