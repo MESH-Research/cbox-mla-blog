@@ -1,28 +1,12 @@
-## Infinity Skeleton Child Theme
+# Commons-in-a-Box MLA Blog Theme
 
-Infinity Skeleton is a bare bones child theme for the Infinity Theming Engine.
+This theme was developed for [_MLA Commons_][1]. It functions as a child 
+theme of the [official Commons-in-a-Box theme][2] for network blogs belonging 
+to the MLA.
 
-### Authors
+The source code of this theme is released under the GPLv2 (see LICENSE.txt). 
+The images are included for reference but remain the property of the Modern 
+Language Association.
 
-* Marshall Sorenson
-* Bowe Frankema
-
-### License
-
-Infinity Skeleton is licensed under GPL v2.0 or higher.
-See LICENSE.txt for full details.
-
-### Requirements
-
-* PHP 5.2.4 or higher - http://www.php.net
-* WordPress 3.2.0 or higher - http://wordpress.org/download
-* Infinity 1.0b2 or higher - https://github.com/MrMaz/infinity/tags
-
-### Support
-
-* http://infinity.presscrew.com/docs
-* http://infinity.presscrew.com/api
-
-### Community
-
-* http://community.presscrew.com
+[1]: http://commons.mla.org
+[2]: https://github.com/cuny-academic-commons/cbox-theme
