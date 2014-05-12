@@ -1,4 +1,4 @@
-/*
+/* 
 Theme Name: MLA Commons Official Network Blog
 Theme URI: http://communitystructure.com
 Description: A blog theme for all MLA Commons blog sites.
@@ -19,7 +19,146 @@ Template: cbox-theme
   exactly like it is shown above!
 -------------------------------------------------*/
 
+
 @import url(http://fonts.googleapis.com/css?family=Rokkitt:400,700);
+
+/* custom styles for revised MLA Forums post in Exec Council */ 
+
+.mla-forums ul { 
+	margin-left: 30px; 
+} 
+
+.mla-forums.forums-list h1 {
+  margin: 0 0 1em 0;
+  line-height: 1.1em;
+}
+
+.mla-forums.forums-list h3 {
+  position: sticky;
+  top: 0;
+  margin: 2em 0 0.5em 0;
+  padding: 0;
+  line-height: 1.1em;
+  background-color: #fff;
+}
+
+.mla-forums.forums-list h4 {
+  margin: 1.5em 0 0.75em 0;
+  color: #333;
+  line-height: 1.1em;
+}
+
+.entry .mla-forums.forums-list ul { 
+	padding-left: 0; /* flush left! */ 
+	margin-left: 0; 
+} 
+
+.mla-forums.forums-list li { 
+	list-style-type: none;
+	line-height: 1.9em; 
+} 
+
+.entry .mla-forums ul.toc { 
+	margin-left: 30px; 
+} 
+.entry .mla-forums ul.toc li { 
+	list-style-type: disc; 
+} 
+.entry .mla-forums .introduction ul ul { 
+	margin: 1em 2em; 
+	list-style-type: square; 
+} 
+
+.entry .mla-forums.faq h3 { 
+	font-size: 110%; 
+} 
+
+/* Key */
+
+.mla-forums #key {
+  margin: 2em 0;
+  padding-bottom: 0.75em;
+  border-bottom: solid 1px #999;
+}
+
+.mla-forums #key h3 {
+  margin: 0 0 1em 0;
+  padding-bottom: 0.5em;
+  border-bottom: solid 1px #999;
+}
+
+/* Tags */
+
+.mla-forums .type, .qtip-content span, .category {
+  display: inline-block;
+  margin: 0 2px;
+  padding: 4px 0.25em;
+  color: #666;
+  font-size: 0.9em;
+  line-height: 0.9em;
+  border: solid 1px #ccc;
+  border-radius: 4px;
+  font-weight: normal; 
+}
+
+.mla-forums .qtip-content span {
+  margin-left: 0.5em;
+}
+
+/* Group types */
+
+.mla-forums .merged {
+  color: #009;
+  font-weight: bold;
+}
+
+.mla-forums .split {
+  color: #060;
+  font-weight: bold;
+}
+.mla-forums .new {
+  color: #f60;
+  font-weight: bold;
+}
+.mla-forums .reconfigured { 
+  color: #90d; 
+  font-weight: bold; 
+} 
+
+/* Enhancements */
+
+.mla-forums #main p, #key p {
+  margin: 0 0 0.5em 0;
+}
+
+.mla-forums #main em {
+  padding: 0 0.25em;
+}
+
+.mla-forums .related {
+  position: relative;
+  top: -1px;
+  padding-left: 0.5em;
+  color: #999;
+  font-size: 0.9em;
+}
+
+.mla-forums .category {
+  margin: 0 5px 0 0;
+  color: #333;
+}
+
+/* Intro and FAQ */
+
+.mla-forums #letter, #faq {
+  font-family: "Trebuchet MS", sans-serif;
+  line-height: 1.45em;
+}
+
+.mla-forums #faq ol li {
+  margin-bottom: 0.25em;
+}
+
 
 .mobile-menu-container {
 	z-index: 999999;
@@ -32,7 +171,6 @@ body {background:#fff; border-top:0px none;}
 body.theme-option {background-image:none;}
 a { color:#0066cc; }
 ul, ol { list-style-position: outside; padding-left:0px; margin-left:1em;}
-.entry ul, .entry ol { margin-left:1.4em;}
 
 ul.contact { margin-left:1.8em;}
 ul.contact li { margin-top:-3px; }
@@ -42,7 +180,9 @@ ul.contact li { margin-top:-3px; }
 .contact li .smalltext, .smalltext { font-size: 85%; }
 
 body { font-family:"Helvetica Neue", Arial, Helvetica, Verdana, sans-serif; font-weight:400; }
-h1, h2, h3, h4, div#object-nav.item-list-tabs li { font-family: 'Rokkitt', serif; }
+h1, h2, h3, h4, div#object-nav.item-list-tabs li { 
+	font-family: Rokkit, "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif; 
+}
 h5, h6, div#item-nav, div#item-body div#subnav.item-list-tabs ul li, div.item-list-tabs ul li, ul.button-nav li, ul.item-list li div.item-title, div#sidebar div#sidebar-me ul#quicklinks li a, div#message-thread strong, .sf-menu, .bp-widget h4 { font-family:"Helvetica Neue", Arial, Helvetica, Verdana, sans-serif; font-weight:300; }
 .bp-widget h4 {font-weight:400;}
 h5, h6, div.item-list-tabs ul li a { font-weight:500; }
@@ -186,6 +326,7 @@ select {padding:6px 2px 2px;}
 .cfcw-content .cfcw-description { margin-top:0px; }
 .cfcw-content .more { font-size:90%; }
 
+
 /* Footer */
 .footer-wrap { border:0px none; border-top:1px solid #585858; background-position: top center; }
 .footer-wrap.row { width:100%; }
@@ -248,3 +389,5 @@ select {padding:6px 2px 2px;}
   font-weight:500;
  }
 }
+
+
