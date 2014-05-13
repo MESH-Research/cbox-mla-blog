@@ -73,6 +73,10 @@ Template: cbox-theme
 	font-size: 110%; 
 } 
 
+.mla-forums.faq h1, .mla-forums.faq h2, .mla-forums.faq h3, .mla-forums.faq h4 { 
+	margin: 1.4em 0 0.5em; 
+} 
+
 /* Key */
 
 .mla-forums #key {
