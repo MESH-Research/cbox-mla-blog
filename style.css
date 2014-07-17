@@ -23,3 +23,57 @@ Template: cbox-theme
 
 body {background:#fff; border-top:0px none;}
 body.theme-option {background-image:none;}
+
+#header { 
+	margin-top: 10px; 
+} 
+#header #site-title { 
+	border: none;
+	margin-left: 10px; 
+} 
+#logo-main, #logo-menu-wrap { 
+	display: inline-block; 
+} 
+#logo-main { 
+} 
+.main-wrap { 
+	margin-top: 20px; 
+} 
+#site-title a, h2.post-title a { 
+	color: #000; 
+	margin-top: 8px; 
+} 
+h2.post-title a:hover { 
+	color: #000; 
+} 
+#site-title a { 
+	font-size: 36px; 
+	position: relative; 
+	top: 3px; 
+} 
+.post-title { 
+	margin-bottom: 5px; 
+} 
+.entry { 
+	margin-top: 10px; 
+} 
+.entry p { 
+	line-height: 1.6em; 
+} 
+footer.post-meta-data { 
+	/* as far as I can tell, this doesn't actually exist in blogs,
+	 * so it's just taking up space. 
+	 */ 
+	display: none;
+} 
+#searchform input#s { 
+	width: 69%; 
+} 
+
+.widget h4 { 
+	margin: 10px;
+} 
+.widget ul { 
+	margin-top: 5px; 
+	margin-left: 25px; 
+} 
