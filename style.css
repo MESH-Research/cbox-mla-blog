@@ -43,6 +43,7 @@ body.theme-option {background-image:none;}
 #site-title a, h2.post-title a { 
 	color: #000; 
 	margin-top: 8px; 
+	font-family: Lexia, serif; 
 } 
 h2.post-title a { 
 	font-size: 27px; 
