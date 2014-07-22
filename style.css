@@ -47,6 +47,11 @@ body.theme-option {background-image:none;}
 	color: #000; 
 	font-family: Lexia, serif; 
 } 
+
+.chrome-msie #site-title a, .chrome-msie h1.post-title, .chrome-msie h2.post-title a, .chrome-msie h1.page-title, .chrome-msie .widget h4, .chrome-msie h3#reply-title, .chrome-msie h3#comments-title { 
+	font-family: "Trebuchet MS", sans-serif; 
+}
+
 h2.post-title a { 
 	font-size: 24px; 
 } 
