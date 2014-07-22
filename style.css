@@ -40,9 +40,11 @@ body.theme-option {background-image:none;}
 .main-wrap { 
 	margin-top: 20px; 
 } 
-#site-title a, h1.post-title, h2.post-title a { 
-	color: #000; 
+#site-title a, h1.post-title, h2.post-title a, h1.page-title, { 
 	margin-top: 8px; 
+} 
+#site-title a, h1.post-title, h2.post-title a, h1.page-title, .widget h4, h3#reply-title, h3#comments-title { 
+	color: #000; 
 	font-family: Lexia, serif; 
 } 
 h2.post-title a { 
@@ -85,4 +87,7 @@ footer.post-meta-data {
 } 
 #sidebar li a { 
 	font-size: 14px; 
+} 
+.category-box { 
+	margin-bottom: 25px; 
 } 
