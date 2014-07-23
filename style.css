@@ -48,7 +48,8 @@ body.theme-option {background-image:none;}
 	font-family: Lexia, serif; 
 } 
 
-.chrome-msie #site-title a, .chrome-msie h1.post-title, .chrome-msie h2.post-title a, .chrome-msie h1.page-title, .chrome-msie .widget h4, .chrome-msie h3#reply-title, .chrome-msie h3#comments-title { 
+/* Chrome for Windows doesn't like the above font. */ 
+.chrome-win #site-title a, .chrome-win h1.post-title, .chrome-win h2.post-title a, .chrome-win h1.page-title, .chrome-win .widget h4, .chrome-win h3#reply-title, .chrome-win h3#comments-title { 
 	font-family: "Trebuchet MS", sans-serif; 
 }
 
