@@ -77,7 +77,6 @@ footer.post-meta-data {
 #searchform input#s { 
 	width: 69%; 
 } 
-
 .widget h4 { 
 	margin: 10px;
 } 
@@ -90,4 +89,30 @@ footer.post-meta-data {
 } 
 .category-box { 
 	margin-bottom: 25px; 
+} 
+@media only screen and (max-width: 768px) {
+	/* Lots of trickery needed to center the logo */ 
+	.top-wrap { 
+		margin-top: 50px; 
+	} 
+	.main-wrap { 
+		margin-top: 10px; 
+	} 
+	#logo-main, #logo-main a { 
+		display: inline-block; 
+		width: 100%; 
+	} 
+	#logo-main a { 
+		text-align: center; 
+	} 
+	#logo-menu-wrap { 
+		display: block; 
+	} 
+	#header #site-title { 
+		text-align: center; 
+		margin: 0; 
+	} 
+	#header #site-title a { 
+		position: inherit;
+	} 
 } 
