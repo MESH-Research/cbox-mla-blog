@@ -127,4 +127,7 @@ footer.post-meta-data {
 	.post-category, .time-posted { 
 		display: inline-block; 
 	} 
+	.mobile-menu-container select {
+		display: none !important;
+	} 
 } 
