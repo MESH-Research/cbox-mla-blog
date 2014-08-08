@@ -48,6 +48,118 @@ body.theme-option {background-image:none;}
 	font-family: Lexia, serif; 
 } 
 
+/* custom styles for revised MLA Forums post in Exec Council */
+.mla-forums ul {
+	margin-left: 30px;
+}
+.mla-forums.forums-list h1 {
+	margin: 0 0 1em 0;
+	line-height: 1.1em;
+}
+.mla-forums.forums-list h3 {
+	position: sticky;
+	top: 0;
+	margin: 2em 0 0.5em 0;
+	padding: 0;
+	line-height: 1.1em;
+	background-color: #fff;
+}
+.mla-forums.forums-list h4 {
+	margin: 1.5em 0 0.75em 0;
+	color: #333;
+	line-height: 1.1em;
+}
+.entry .mla-forums.forums-list ul {
+	padding-left: 0; /* flush left! */
+	margin-left: 0;
+}
+.mla-forums.forums-list li {
+	list-style-type: none;
+	line-height: 1.9em;
+}
+.entry .mla-forums ul.toc {
+margin-left: 30px;
+}
+.entry .mla-forums ul.toc li {
+	list-style-type: disc;
+}
+.entry .mla-forums .introduction ul ul {
+	margin: 1em 2em;
+	list-style-type: square;
+}
+.entry .mla-forums.faq h3 {
+	font-size: 110%;
+}
+/* Key */
+.mla-forums #key {
+	margin: 2em 0;
+	padding-bottom: 0.75em;
+	border-bottom: solid 1px #999;
+}
+.mla-forums #key h3 {
+	margin: 0 0 1em 0;
+	padding-bottom: 0.5em;
+	border-bottom: solid 1px #999;
+}
+/* Tags */
+.mla-forums .type, .qtip-content span, .category {
+	display: inline-block;
+	margin: 0 2px;
+	padding: 4px 0.25em;
+	color: #666;
+	font-size: 0.9em;
+	line-height: 0.9em;
+	border: solid 1px #ccc;
+	border-radius: 4px;
+	font-weight: normal;
+}
+.mla-forums .qtip-content span {
+	margin-left: 0.5em;
+}
+/* Group types */
+.mla-forums .merged {
+	color: #009;
+	font-weight: bold;
+}
+.mla-forums .split {
+	color: #060;
+	font-weight: bold;
+}
+.mla-forums .new {
+	color: #f60;
+	font-weight: bold;
+}
+.mla-forums .reconfigured {
+	color: #90d;
+	font-weight: bold;
+}
+/* Enhancements */
+.mla-forums #main p, #key p {
+	margin: 0 0 0.5em 0;
+}
+.mla-forums #main em {
+	padding: 0 0.25em;
+}
+.mla-forums .related {
+	position: relative;
+	top: -1px;
+	padding-left: 0.5em;
+	color: #999;
+	font-size: 0.9em;
+}
+.mla-forums .category {
+	margin: 0 5px 0 0;
+	color: #333;
+}
+/* Intro and FAQ */
+.mla-forums #letter, #faq {
+	font-family: "Trebuchet MS", sans-serif;
+	line-height: 1.45em;
+}
+.mla-forums #faq ol li {
+	margin-bottom: 0.25em;
+}
+
 /* Chrome for Windows doesn't like the above font. */ 
 .chrome-win #site-title a, .chrome-win h1.post-title, .chrome-win h2.post-title a, .chrome-win h1.page-title, .chrome-win .widget h4, .chrome-win h3#reply-title, .chrome-win h3#comments-title { 
 	font-family: "Trebuchet MS", sans-serif; 
