@@ -208,6 +208,10 @@ footer.post-meta-data {
 .category-box { 
 	margin-bottom: 25px; 
 } 
+/* Don't show "Log in to Reply," as it's redundant and clutters up the page */ 
+.comment-reply-login { 
+	display: none; 
+} 
 @media only screen and (max-width: 768px) {
 	/* Lots of trickery needed to center the logo */ 
 	.post .author-avatar { 
