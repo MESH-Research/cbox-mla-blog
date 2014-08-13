@@ -48,6 +48,11 @@ body.theme-option {background-image:none;}
 	font-family: Lexia, serif; 
 } 
 
+/* not so big, headers */ 
+h3 { 
+	font-size: 1.6em; 
+} 
+
 /* custom styles for revised MLA Forums post in Exec Council */
 .mla-forums ul {
 	margin-left: 30px;
