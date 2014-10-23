@@ -102,7 +102,7 @@ margin-left: 30px;
 	border-bottom: solid 1px #999;
 }
 /* Tags */
-.mla-forums .type, .qtip-content span, .category {
+.mla-forums .type, .qtip-content span, .mla-forums .category {
 	display: inline-block;
 	margin: 0 2px;
 	padding: 4px 0.25em;
