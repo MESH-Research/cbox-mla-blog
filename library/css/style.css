@@ -1488,6 +1488,7 @@ HEADER STYLES
 *********************/
 .header {
   background-color: #fafafa;
+  border-bottom: 1px solid #eeeeee;
 }
 .header .logo-img {
   margin: 2em 0 0;
@@ -1667,7 +1668,7 @@ POSTS & CONTENT STYLES
   height: auto;
 }
 .entry-content pre {
-  background: #323944;
+  background: #444444;
   color: #fafafa;
   font-size: 0.9em;
   padding: 1.5em;
@@ -1959,7 +1960,7 @@ FOOTER STYLES
 *********************/
 .footer {
   clear: both;
-  background-color: #323944;
+  background-color: #444444;
   color: #fafafa;
 }
 
@@ -2104,7 +2105,7 @@ you can add resource intensive styles.
     /* end current highlighters */
   }
   .nav ul {
-    background: #323944;
+    background: #444444;
     margin-top: 0;
   }
   .nav li {
@@ -2175,8 +2176,10 @@ you can add resource intensive styles.
   }
 
   .widgettitle {
-    border-bottom: 2px solid #444;
+    border-bottom: 1px solid #eaedf2;
     margin-bottom: 0.75em;
+    padding-bottom: 0.75em;
+    font-weight: normal;
   }
 
   .widget {

@@ -156,6 +156,7 @@ HEADER STYLES
 
 .header {
 	background-color: $light-gray;
+	border-bottom: 1px solid $border-color; 
 
 	.logo-img { 
 		margin: 2em 0 0;
