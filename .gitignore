@@ -56,3 +56,10 @@ temp/
 
 *.codekit
 *.scssc
+
+###########
+## Node
+###########
+
+library/grunt/node_modules/
+
