@@ -146,8 +146,10 @@ SIDEBARS & ASIDES
 }
 
 	.widgettitle {
-		border-bottom: 2px solid #444;
+		border-bottom: 1px solid $gray;
 		margin-bottom: 0.75em;
+		padding-bottom: 0.75em; 
+		font-weight: normal; 
 	}
 
 	.widget {
