@@ -27,6 +27,7 @@ $white:             #fff;
 
 $light-gray:        #fafafa;
 $gray:              #eaedf2;
+$darker-gray:       darken($light-gray, 10%); 
 $text-color:        #444;
 $meta-gray:         #777;
 
