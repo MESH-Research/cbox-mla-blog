@@ -1487,14 +1487,17 @@ h5, .h5 {
 HEADER STYLES
 *********************/
 .header {
-  background-color: #323944;
+  background-color: #fafafa;
+}
+.header .logo-img {
+  margin: 2em 0 0;
 }
 
 #logo {
-  margin: 0.75em 0;
+  margin: 0 0 0.75em;
 }
 #logo a {
-  color: white;
+  color: #444444;
 }
 
 /*********************

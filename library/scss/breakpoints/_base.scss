@@ -155,14 +155,18 @@ HEADER STYLES
 *********************/
 
 .header {
-	background-color: $black;
+	background-color: $light-gray;
+
+	.logo-img { 
+		margin: 2em 0 0;
+	} 
 }
 
 	#logo {
-		margin: 0.75em 0;
+		margin: 0 0 0.75em;
 
 		a {
-			color: $white;
+			color: $text-color;
 		}
 	}
 
