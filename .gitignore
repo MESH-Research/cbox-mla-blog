@@ -57,8 +57,10 @@ temp/
 *.codekit
 *.scssc
 
+*.map
+
 ###########
-## Node
+## Node 
 ###########
 
 library/grunt/node_modules/
