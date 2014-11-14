@@ -1361,7 +1361,7 @@ and will be used across all viewports.
 GENERAL STYLES
 *********************/
 body {
-  font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "proxima-nova", Helvetica, sans-serif;
   font-size: 100%;
   line-height: 1.5;
   color: #444444;

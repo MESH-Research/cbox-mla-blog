@@ -30,6 +30,11 @@
 
 		<link rel="pingback" href="<?php bloginfo('pingback_url'); ?>">
 
+		<!-- TypeKit Embed Code --> 
+			<script type="text/javascript" src="//use.typekit.net/wed8osd.js"></script>
+			<script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+		<!-- End TypeKit Embed Code --> 
+
 		<?php // wordpress head functions ?>
 		<?php wp_head(); ?>
 		<?php // end of wordpress head ?>
