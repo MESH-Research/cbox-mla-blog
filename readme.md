@@ -1,3 +1,14 @@
+
+# About this Theme
+This is a theme designed for official MLA blogs on the _MLA Commons_. It's based on Bones, and was initialized using the yeoman generator wp-bones.  
+
+# Content Changes Required for 2.0 Rollout
+
+[ ] Populate "Sidebar 1" with content from existing cbox-mla-blog theme: 
+ * Recent Posts
+ * Categories
+ * Text: About this FAQ
+
 # Bones
 A Lightweight Wordpress Development Theme
 
