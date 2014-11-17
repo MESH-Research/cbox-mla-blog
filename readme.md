@@ -4,10 +4,11 @@ This is a theme designed for official MLA blogs on the _MLA Commons_. It's based
 
 # Content Changes Required for 2.0 Rollout
 
-[ ] Populate "Sidebar 1" with content from existing cbox-mla-blog theme: 
- * Recent Posts
- * Categories
- * Text: About this FAQ
+ * [ ] In `blog.commons.mla.org/wp-admin/themes.php`, activate another theme and then re-activate the cbox-mla-blog theme.  
+ * [ ] In Dashboard -> Appearance -> Widgets, populate "Sidebar 1" with content from existing blog. This will be slightly different for each blog. For FAQ, it's: 
+   - Recent Posts
+   - Categories
+   - Text: About this FAQ
 
 # Bones
 A Lightweight Wordpress Development Theme

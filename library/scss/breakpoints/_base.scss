@@ -20,7 +20,7 @@ body {
 	font-size: 100%;
 	line-height: 1.5;
 	color: $text-color;
-	background-color: $white;
+	background-color: $light-gray;
 	-webkit-font-smoothing: antialiased;
 }
 
@@ -155,7 +155,7 @@ HEADER STYLES
 *********************/
 
 .header {
-	background-color: $light-gray;
+	background-color: $white;
 	border-bottom: 1px solid $border-color; 
 
 	.logo-img { 
@@ -263,7 +263,7 @@ POSTS & CONTENT STYLES
 }
 
 		.hentry {
-			background-color: $light-gray; 
+			background-color: $white; 
 			border-radius: 3px;
 			margin-bottom: 1.5em;
 			border: 1px solid $border-color;
@@ -322,7 +322,6 @@ POSTS & CONTENT STYLES
 		/* entry content */
 		.entry-content {
 			padding: 1.5em 1.5em 0;
-			background-color: $light-gray; 
 
 
 			p {
@@ -394,7 +393,7 @@ POSTS & CONTENT STYLES
 			blockquote {
 				margin: 0 0 1.5em 0.75em;
 				padding: 0 0 0 0.75em;
-				border-left: 3px solid $blue;
+				border-left: 3px solid $gray;
 				font-style: italic;
 				color: $meta-gray;
 
@@ -446,6 +445,10 @@ POSTS & CONTENT STYLES
 				margin: 0 0 1.5em;
 				border-radius: 3px;
 			}
+			
+			iframe { 
+				width: 100%; /* embedded videos */ 
+			} 
 
 		} /* end .entry-content */
 
@@ -512,7 +515,6 @@ PAGE NAVI STYLES
 
 	ul {
 		display: inline-block;
-		background-color: $white;
 		white-space: nowrap;
 		padding: 0;
 		clear: both;
@@ -729,7 +731,7 @@ COMMENT STYLES
 
 	/* comment reply link */
 	.comment-reply-link {
-		@extend .white-button; 
+		@extend %minimalButton; 
 		font-size: 0.9em;
 		float: right;
 
@@ -785,7 +787,7 @@ COMMENT FORM STYLES
 
 	/* comment submit button */
 	#submit {
-		@extend .white-button; 
+		@extend %minimalButton; 
 		float: right;
 		font-size: 1em;
 	}
