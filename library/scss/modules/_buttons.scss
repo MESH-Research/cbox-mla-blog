@@ -72,3 +72,30 @@ and it will create a button dependant on those variables.
   } // end active
 
 } // end blue button
+
+%minimalButton { 
+	display: inline-block;
+	background-color: $light-gray;
+	border: 1px solid $border-color;
+	border-bottom: 2px solid $border-color;
+	color: $text-color;
+	&:hover, &:active, &:focus { 
+		color: $text-color; 
+	} 
+	&:hover, &.current, &:active {
+		background-color: $gray;
+		border-color: $gray; 
+	}
+	@include borderRadius;
+	padding: 10px; 
+} 
+
+.white-button { 
+	@extend %minimalButton; 
+	background-color: $white; 
+} 
+
+.slim-button { 
+	@extend %minimalButton; 
+	padding: 5px; 
+} 

@@ -70,27 +70,6 @@ probably best not to use it. I mean, were you going to anyway? */
 	box-sizing:         $type;
 }
 
-@mixin minimalButton {
-	display: inline-block;
-	background-color: $light-gray;
-	border: 1px solid $border-color;
-	border-bottom: 2px solid $border-color;
-	color: $text-color;
-	text-shadow: 0 1px rgba(255, 255, 255, .75);
-	a, a:hover, &:hover, &:active {
-		color: $text-color;
-		text-decoration: none;
-	}
-	&:hover {
-		background-color: $gray;
-	}
-	&:active {
-		background-color: $darker-gray;
-		text-shadow: none;
-	}
-	@include borderRadius;
-}
-
 @mixin borderRadius($radius: 3px) {
 	border-radius: $radius;
 	-moz-border-radius: $radius;

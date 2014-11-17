@@ -1004,7 +1004,7 @@ Here's a quick video to show how it works:
 http://www.youtube.com/watch?v=hwdVpKiJzac
 
 *********************/
-.blue-btn, .comment-reply-link, #submit {
+.blue-btn {
   display: inline-block;
   position: relative;
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -1021,11 +1021,11 @@ http://www.youtube.com/watch?v=hwdVpKiJzac
   -webkit-transition: background-color 0.14s ease-in-out;
   transition: background-color 0.14s ease-in-out;
 }
-.blue-btn:hover, .comment-reply-link:hover, #submit:hover, .blue-btn:focus, .comment-reply-link:focus, #submit:focus {
+.blue-btn:hover, .blue-btn:focus {
   color: white;
   text-decoration: none;
 }
-.blue-btn:active, .comment-reply-link:active, #submit:active {
+.blue-btn:active {
   top: 1px;
 }
 
@@ -1034,14 +1034,41 @@ An example button.
 You can use this example if you want. Just replace all the variables
 and it will create a button dependant on those variables.
 */
-.blue-btn, .comment-reply-link, #submit {
+.blue-btn {
   background-color: #2980b9;
 }
-.blue-btn:hover, .comment-reply-link:hover, #submit:hover, .blue-btn:focus, .comment-reply-link:focus, #submit:focus {
+.blue-btn:hover, .blue-btn:focus {
   background-color: #2574a8;
 }
-.blue-btn:active, .comment-reply-link:active, #submit:active {
+.blue-btn:active {
   background-color: #2472a4;
+}
+
+.white-button, .comment-reply-link, #submit, .slim-button, .pagination a, .pagination span {
+  display: inline-block;
+  background-color: #fafafa;
+  border: 1px solid #eeeeee;
+  border-bottom: 2px solid #eeeeee;
+  color: #444444;
+  border-radius: 3px;
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  padding: 10px;
+}
+.white-button:hover, .comment-reply-link:hover, #submit:hover, .slim-button:hover, .pagination a:hover, .pagination span:hover, .white-button:active, .comment-reply-link:active, #submit:active, .slim-button:active, .pagination a:active, .pagination span:active, .white-button:focus, .comment-reply-link:focus, #submit:focus, .slim-button:focus, .pagination a:focus, .pagination span:focus {
+  color: #444444;
+}
+.white-button:hover, .comment-reply-link:hover, #submit:hover, .slim-button:hover, .pagination a:hover, .pagination span:hover, .current.white-button, .current.comment-reply-link, .current#submit, .current.slim-button, .pagination a.current, .pagination span.current, .white-button:active, .comment-reply-link:active, #submit:active, .slim-button:active, .pagination a:active, .pagination span:active {
+  background-color: #eaedf2;
+  border-color: #eaedf2;
+}
+
+.white-button, .comment-reply-link, #submit {
+  background-color: white;
+}
+
+.slim-button {
+  padding: 5px;
 }
 
 /******************************************************************
@@ -1723,7 +1750,7 @@ PAGE NAVI STYLES
 }
 .pagination li {
   padding: 0;
-  margin: 0;
+  margin: 2px;
   float: left;
   display: inline;
   overflow: hidden;
@@ -1739,34 +1766,6 @@ PAGE NAVI STYLES
   padding: 0.75em;
   min-width: 1em;
   display: block;
-  display: inline-block;
-  background-color: #fafafa;
-  border: 1px solid #eeeeee;
-  border-bottom: 2px solid #eeeeee;
-  color: #444444;
-  text-shadow: 0 1px rgba(255, 255, 255, 0.75);
-  border-radius: 3px;
-  -moz-border-radius: 3px;
-  -webkit-border-radius: 3px;
-}
-.pagination a a, .pagination a a:hover, .pagination a:hover, .pagination a:active, .pagination span a, .pagination span a:hover, .pagination span:hover, .pagination span:active {
-  color: #444444;
-  text-decoration: none;
-}
-.pagination a:hover, .pagination span:hover {
-  background-color: #eaedf2;
-}
-.pagination a:active, .pagination span:active {
-  background-color: #e1e1e1;
-  text-shadow: none;
-}
-.pagination .current {
-  cursor: default;
-  color: #444444;
-}
-.pagination .current:hover, .pagination .current:focus {
-  background-color: white;
-  color: #444444;
 }
 
 /* end .bones_page_navi */
