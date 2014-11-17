@@ -1,6 +1,6 @@
 /******************************************************************
-Site Name:
-Author:
+Site Name: CBOX MLA Blog
+Author: Jonathan Reeve
 
 Stylesheet: Base Mobile Stylesheet
 
@@ -21,7 +21,7 @@ body {
 	line-height: 1.5;
 	color: $text-color;
 	background-color: $white;
-  -webkit-font-smoothing: antialiased;
+	-webkit-font-smoothing: antialiased;
 }
 
 /********************
@@ -868,27 +868,17 @@ FOOTER STYLES
 .footer {
 	clear: both;
 	background-color: $black;
-	color: $light-gray;
+	color: $dark-text-color; 
+	text-align: center; /* center everything on mobile */ 
+	h4, .copyright { 
+		padding: 1em;
+		background-color: $dark-gray;  
+		color: $dark-link-color;
+	} 
+	a { 
+		color: $dark-link-color;
+	} 
+	.widget { 
+		padding: 0; 
+	} 
 }
-
-	/*
-	if you checked out the link above:
-	http://www.alistapart.com/articles/organizing-mobile/
-	you'll want to style the footer nav
-	a bit more in-depth. Remember to keep
-	it simple because you'll have to
-	override these styles for the desktop
-	view.
-	*/
-	.footer-links {
-
-		ul {
-
-			li {}
-
-		}
-
-	} /* end .footer-links */
-
-
-	.copyright {}

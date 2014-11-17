@@ -1,8 +1,5 @@
 			<footer class="footer" role="contentinfo">
 
-				<div id="inner-footer" class="wrap cf">
-
-
 	<div class="footer-widgets row">			
 
 			<!-- footer widgets -->
@@ -24,7 +21,7 @@ New York, NY 10004<br>
 	
 				<div class="five columns footer-widget" id="footer-widget-middle">
 					<?php
-						the_widget('WP_Widget_RSS', 'url=http://faq.commons.mla.org/&title=FAQ', 'before_title=<h4>&after_title=</h4>');
+						the_widget('WP_Widget_RSS', 'url=http://faq.commons.mla.org/&title=FAQ&items=5', 'before_title=<h4>&after_title=</h4>');
 					?>
 				</div>
 	
@@ -42,9 +39,7 @@ New York, NY 10004<br>
 
 <div style="clear:both;"></div>
 
-					<p class="source-org copyright">Copyright &copy; 2014 MLA and released under the GPLv3.</p>
-
-				</div>
+					<p class="source-org copyright">Copyright &copy; 2012-2014 MLA. Released under the GPLv3.</p>
 
 			</footer>
 

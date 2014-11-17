@@ -1346,8 +1346,8 @@ you set a great foundation, you won't need to add too many styles in
 the other stylesheets. Remember, keep it light: Speed is Important.
 *********************/
 /******************************************************************
-Site Name:
-Author:
+Site Name: CBOX MLA Blog
+Author: Jonathan Reeve
 
 Stylesheet: Base Mobile Stylesheet
 
@@ -1961,19 +1961,22 @@ FOOTER STYLES
 .footer {
   clear: both;
   background-color: #444444;
-  color: #fafafa;
+  color: darkgray;
+  text-align: center;
+  /* center everything on mobile */
+}
+.footer h4, .footer .copyright {
+  padding: 1em;
+  background-color: #333333;
+  color: #dddddd;
+}
+.footer a {
+  color: #dddddd;
+}
+.footer .widget {
+  padding: 0;
 }
 
-/*
-if you checked out the link above:
-http://www.alistapart.com/articles/organizing-mobile/
-you'll want to style the footer nav
-a bit more in-depth. Remember to keep
-it simple because you'll have to
-override these styles for the desktop
-view.
-*/
-/* end .footer-links */
 /*********************
 LARGER MOBILE DEVICES
 This is for devices like the Galaxy Note or something that's
@@ -2209,6 +2212,40 @@ you can add resource intensive styles.
   /*********************
   FOOTER STYLES
   *********************/
+  .footer {
+    text-align: left;
+  }
+  .footer .footer-widgets {
+    padding: 0 5%;
+    margin-left: 2%;
+  }
+  .footer .footer-widget {
+    float: left;
+    width: 33%;
+    padding: 2%;
+  }
+  .footer h4 {
+    background-color: #444444;
+    padding: 0;
+    margin: 0;
+    font-size: 150%;
+    font-weight: normal;
+  }
+  .footer .widget ul {
+    margin-left: 1.5em;
+  }
+  .footer .widget ul li {
+    margin-bottom: 0;
+    list-style-type: disc;
+  }
+  .footer .copyright {
+    border-top: 1px solid #555555;
+    margin-bottom: 0;
+    text-align: center;
+    font-size: 0.8em;
+    text-transform: uppercase;
+  }
+
   /*
   you'll probably need to do quite a bit
   of overriding here if you styled them for
