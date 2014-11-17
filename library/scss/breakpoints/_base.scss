@@ -291,7 +291,9 @@ POSTS & CONTENT STYLES
 			margin: 0;
 		}
 
-		.single-title {}
+		.single-title {
+			@extend h2; 
+		}
 
 		.page-title {}
 
@@ -312,7 +314,6 @@ POSTS & CONTENT STYLES
 		/* post meta */
 		.byline {
 			color: $meta-gray;
-			font-style: italic;
 			margin: 0;
 
 			time {}
@@ -524,7 +525,6 @@ PAGE NAVI STYLES
 		float: left;
 		display: inline;
 		overflow: hidden;
-		border-right: 1px solid $gray;
 	}
 
 	a, span {
@@ -683,7 +683,7 @@ COMMENT STYLES
 	/* general comment classes */
 	&.alt {}
 	&.odd {
-		background-color: $white;
+		background-color: #f5f5f5;
 	}
 	&.even {
 		background: $light-gray;

@@ -79,7 +79,7 @@ and it will create a button dependant on those variables.
 	border: 1px solid $border-color;
 	border-bottom: 2px solid $border-color;
 	color: $text-color;
-	&:hover, &:active, &:focus { 
+	&:hover, &:active, &:focus, &:visited, &:visited:hover, &:visited:focus { 
 		color: $text-color; 
 	} 
 	&:hover, &.current, &:active {

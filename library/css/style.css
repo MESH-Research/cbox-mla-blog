@@ -1055,7 +1055,7 @@ and it will create a button dependant on those variables.
   -webkit-border-radius: 3px;
   padding: 10px;
 }
-.white-button:hover, .comment-reply-link:hover, #submit:hover, .slim-button:hover, .pagination a:hover, .pagination span:hover, .white-button:active, .comment-reply-link:active, #submit:active, .slim-button:active, .pagination a:active, .pagination span:active, .white-button:focus, .comment-reply-link:focus, #submit:focus, .slim-button:focus, .pagination a:focus, .pagination span:focus {
+.white-button:hover, .comment-reply-link:hover, #submit:hover, .slim-button:hover, .pagination a:hover, .pagination span:hover, .white-button:active, .comment-reply-link:active, #submit:active, .slim-button:active, .pagination a:active, .pagination span:active, .white-button:focus, .comment-reply-link:focus, #submit:focus, .slim-button:focus, .pagination a:focus, .pagination span:focus, .white-button:visited, .comment-reply-link:visited, #submit:visited, .slim-button:visited, .pagination a:visited, .pagination span:visited, .white-button:visited:hover, .comment-reply-link:visited:hover, #submit:visited:hover, .slim-button:visited:hover, .pagination a:visited:hover, .pagination span:visited:hover, .white-button:visited:focus, .comment-reply-link:visited:focus, #submit:visited:focus, .slim-button:visited:focus, .pagination a:visited:focus, .pagination span:visited:focus {
   color: #444444;
 }
 .white-button:hover, .comment-reply-link:hover, #submit:hover, .slim-button:hover, .pagination a:hover, .pagination span:hover, .current.white-button, .current.comment-reply-link, .current#submit, .current.slim-button, .pagination a.current, .pagination span.current, .white-button:active, .comment-reply-link:active, #submit:active, .slim-button:active, .pagination a:active, .pagination span:active {
@@ -1469,7 +1469,7 @@ a:link, a:visited:link {
 /******************************************************************
 H1, H2, H3, H4, H5 STYLES
 ******************************************************************/
-h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5 {
+h1, .h1, h2, .single-title, .h2, h3, .h3, h4, .h4, h5, .h5 {
   text-rendering: optimizelegibility;
   font-weight: 500;
   /* 
@@ -1478,7 +1478,7 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5 {
    */
   /* removing text decoration from all headline links */
 }
-h1 a, .h1 a, h2 a, .h2 a, h3 a, .h3 a, h4 a, .h4 a, h5 a, .h5 a {
+h1 a, .h1 a, h2 a, .single-title a, .h2 a, h3 a, .h3 a, h4 a, .h4 a, h5 a, .h5 a {
   text-decoration: none;
   color: #444444;
 }
@@ -1488,7 +1488,7 @@ h1, .h1 {
   line-height: 1.333em;
 }
 
-h2, .h2 {
+h2, .single-title, .h2 {
   font-size: 1.75em;
   line-height: 1.4em;
   margin-bottom: 0.375em;
@@ -1617,7 +1617,6 @@ POSTS & CONTENT STYLES
 /* post meta */
 .byline {
   color: #777777;
-  font-style: italic;
   margin: 0;
 }
 
@@ -1754,7 +1753,6 @@ PAGE NAVI STYLES
   float: left;
   display: inline;
   overflow: hidden;
-  border-right: 1px solid #eaedf2;
 }
 .pagination a, .pagination span {
   margin: 0;
@@ -1854,7 +1852,7 @@ COMMENT STYLES
   padding: 7px;
 }
 .comment.odd {
-  background-color: white;
+  background-color: #f5f5f5;
 }
 .comment.even {
   background: #fafafa;
@@ -2408,12 +2406,12 @@ be set to display none.
   @page {
     margin: 0.5cm;
   }
-  p, h2, h3 {
+  p, h2, .single-title, h3 {
     orphans: 3;
     widows: 3;
   }
 
-  h2,
+  h2, .single-title,
   h3 {
     page-break-after: avoid;
   }
