@@ -33,7 +33,7 @@
 									</p>
 
 
-                 	<?php printf( '<p class="footer-category">' . __('filed under', 'cbox-mla-blog' ) . ': %1$s</p>' , get_the_category_list(', ') ); ?>
+                 	<?php printf( '<p class="footer-category">' . __('Filed under', 'cbox-mla-blog' ) . ': %1$s</p>' , get_the_category_list(', ') ); ?>
 
                   <?php the_tags( '<p class="footer-tags tags"><span class="tags-title">' . __( 'Tags:', 'cbox-mla-blog' ) . '</span> ', ', ', '</p>' ); ?>
 
