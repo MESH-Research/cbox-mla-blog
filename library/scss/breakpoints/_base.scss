@@ -904,8 +904,12 @@ FOOTER STYLES
 	.copyright { 
 		margin-bottom: 0; /* stop appearance of white bar at the bottom */ 
 	} 
-	a { 
+	a, a:visited { 
 		color: $dark-link-color;
+	} 
+	a:hover, a:active { 
+		color: $white; 
+		text-decoration: none; 
 	} 
 	.widget { 
 		padding: 0; 

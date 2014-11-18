@@ -2010,8 +2010,12 @@ FOOTER STYLES
   margin-bottom: 0;
   /* stop appearance of white bar at the bottom */
 }
-.footer a {
+.footer a, .footer a:visited {
   color: #dddddd;
+}
+.footer a:hover, .footer a:active {
+  color: white;
+  text-decoration: none;
 }
 .footer .widget {
   padding: 0;
