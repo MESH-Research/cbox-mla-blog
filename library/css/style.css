@@ -1683,9 +1683,10 @@ POSTS & CONTENT STYLES
   margin-bottom: 1.5em;
 }
 .entry-content img, .sidebar img {
-  margin: 0 0 1.5em 0;
+  display: block;
   max-width: 100%;
   height: auto;
+  margin: 1em auto;
 }
 .entry-content .size-auto, .sidebar .size-auto,
 .entry-content .size-full,
@@ -1834,7 +1835,7 @@ COMMENT STYLES
   list-style-type: none;
 }
 
-.comment {
+.comment, .pingback {
   position: relative;
   clear: both;
   overflow: hidden;
@@ -1845,62 +1846,52 @@ COMMENT STYLES
   /* end children */
   /* general comment classes */
 }
-.comment .comment-author {
+.comment .comment-author, .pingback .comment-author {
   padding: 7px;
   border: 0;
 }
-.comment .vcard {
-  margin-left: 50px;
-}
-.comment .vcard cite.fn {
+.comment .vcard cite.fn, .pingback .vcard cite.fn {
   font-weight: 700;
   font-style: normal;
 }
-.comment .vcard time {
+.comment .vcard time, .pingback .vcard time {
   display: block;
   font-size: 0.9em;
-  font-style: italic;
 }
-.comment .vcard time a {
+.comment .vcard time a, .pingback .vcard time a {
   color: #777777;
   text-decoration: none;
 }
-.comment .vcard time a:hover {
+.comment .vcard time a:hover, .pingback .vcard time a:hover {
   text-decoration: underline;
 }
-.comment .vcard .avatar {
-  /* todo: don't absolutely position this. 
-   * This isn't ideal. */
-  position: absolute;
-  left: 29px;
-  top: 34px;
+.comment .vcard .avatar, .pingback .vcard .avatar {
+  float: left;
+  vertical-align: top;
   border-radius: 50%;
+  margin-right: 10px;
 }
-.comment:last-child {
+.comment:last-child, .pingback:last-child {
   margin-bottom: 0;
 }
-.comment .children {
+.comment .children, .pingback .children {
   margin: 0;
   /* variations */
   /* change number for different depth */
 }
-.comment[class*=depth-] {
+.comment[class*=depth-], .pingback[class*=depth-] {
   margin-top: 1.1em;
 }
-.comment.depth-1 {
+.comment.depth-1, .pingback.depth-1 {
   margin-left: 0;
   margin-top: 0;
 }
-.comment:not(.depth-1) {
+.comment:not(.depth-1), .pingback:not(.depth-1) {
   margin-top: 0;
-  margin-left: 7px;
+  margin-left: 1%;
   padding: 7px;
-}
-.comment.odd {
-  background-color: #f5f5f5;
-}
-.comment.even {
-  background: #fafafa;
+  border-left: 2px solid #eaeaea;
+  padding-left: 1em;
 }
 
 /* comment meta */
@@ -1921,8 +1912,7 @@ COMMENT STYLES
 /* end .commentlist .comment-reply-link */
 /* edit comment link */
 .comment-edit-link {
-  font-style: italic;
-  margin: 0 7px;
+  margin-right: 5px;
   text-decoration: none;
   font-size: 0.9em;
 }
@@ -2015,6 +2005,10 @@ FOOTER STYLES
   padding: 1em;
   background-color: #333333;
   color: #dddddd;
+}
+.footer .copyright {
+  margin-bottom: 0;
+  /* stop appearance of white bar at the bottom */
 }
 .footer a {
   color: #dddddd;
@@ -2270,8 +2264,8 @@ you can add resource intensive styles.
   }
   .footer .footer-widget {
     float: left;
-    width: 33%;
-    padding: 2%;
+    width: 28%;
+    margin-left: 5%;
   }
   .footer h4 {
     background-color: #444444;
