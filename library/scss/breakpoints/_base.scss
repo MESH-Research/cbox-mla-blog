@@ -664,8 +664,11 @@ COMMENT STYLES
 		.photo {}
 
 		.avatar {
+			/* todo: don't absolutely position this. 
+			 * This isn't ideal. */ 
 			position: absolute;
-			left: 16px;
+			left: 29px;
+			top: 34px; 
 			border-radius: 50%;
 		}
 
@@ -850,7 +853,11 @@ COMMENT FORM STYLES
 SIDEBARS & ASIDES
 *********************/
 
-.sidebar {}
+.sidebar {
+	@extend .hentry;
+	@extend .entry-content; 
+	padding-bottom: 1.5em; 
+}
 
 	.widgettitle {}
 

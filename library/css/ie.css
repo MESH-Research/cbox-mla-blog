@@ -347,10 +347,13 @@ SIDEBARS & ASIDES
 *********************/
 .sidebar {
   margin-top: 2.2em;
+  /* overrides for mobile styles from _base */
+  background-color: transparent;
+  border: none;
 }
 
 .widgettitle {
-  border-bottom: 1px solid #eaedf2;
+  border-bottom: 1px solid #eaeaea;
   margin-bottom: 0.75em;
   padding-bottom: 0.75em;
   font-weight: normal;

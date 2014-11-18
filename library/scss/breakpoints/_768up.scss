@@ -143,6 +143,9 @@ SIDEBARS & ASIDES
 
 .sidebar {
 	margin-top: 2.2em;
+	/* overrides for mobile styles from _base */ 
+	background-color: transparent; 
+	border: none; 
 }
 
 	.widgettitle {
