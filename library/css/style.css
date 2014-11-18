@@ -1728,7 +1728,40 @@ POSTS & CONTENT STYLES
 
 /* end .wp-caption */
 /* image gallery styles */
+.gallery dl {
+  display: inline-block;
+  border: 1px solid #eaedf2;
+  border-bottom: 2px solid #ccc;
+  border-radius: 3px;
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  text-align: center;
+  vertical-align: top;
+  padding: 1%;
+}
+.gallery dl img {
+  margin: 0;
+}
+.gallery dd {
+  margin-bottom: 0.5em;
+}
+
 /* end .gallery */
+.gallery-columns-2 dl {
+  width: 44%;
+  margin: 3%;
+}
+
+.gallery-columns-3 dl {
+  width: 29%;
+  margin: 2%;
+}
+
+.gallery-columns-4 dl {
+  width: 23%;
+  margin: 1%;
+}
+
 /* gallery caption styles */
 .tags {
   margin: 0;

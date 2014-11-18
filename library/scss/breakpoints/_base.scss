@@ -474,20 +474,51 @@ POSTS & CONTENT STYLES
 
 		/* image gallery styles */
 		.gallery {
-
 			dl {
+				display: inline-block; 
+				border: 1px solid $gray; 
+				border-bottom: 2px solid #ccc; 
+				@include borderRadius; 
+				text-align: center; 
+				vertical-align: top; 
+				padding: 1%; 
 
 				a {}
 
-				img {}
+				img {
+					margin: 0; 
+				
+				}
 
 			}
 
 			dt {}
 
-			dd {}
+			dd {
+				margin-bottom: 0.5em; 
+			}
 
 		} /* end .gallery */
+
+		.gallery-columns-2 { 
+			dl { 
+				width: 44%; 
+				margin: 3%; 
+			} 
+		} 
+		.gallery-columns-3 { 
+			dl { 
+				width: 29%; 
+				margin: 2%; 
+			} 
+
+		} 
+		.gallery-columns-4 { 
+			dl { 
+				width: 23%; 
+				margin: 1%; 
+			} 
+		} 
 
 		/* gallery caption styles */
 		.gallery-caption {}
