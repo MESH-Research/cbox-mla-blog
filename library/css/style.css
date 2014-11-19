@@ -1992,8 +1992,8 @@ COMMENT FORM STYLES
 }
 
 /* no comments */
-.nocomments {
-  margin: 0 20px 1.1em;
+.no-comments {
+  padding: 1.5em;
 }
 
 /*********************
