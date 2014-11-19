@@ -1639,6 +1639,21 @@ POSTS & CONTENT STYLES
 .entry-content p, .sidebar p {
   margin: 0 0 1.5em;
 }
+.entry-content ul, .sidebar ul, .entry-content ol, .sidebar ol {
+  margin-left: 1.5em;
+}
+.entry-content ul li, .sidebar ul li {
+  list-style-type: disc;
+  list-style-position: outside;
+}
+.entry-content ul li ul li, .sidebar ul li ul li {
+  /* second level */
+  list-style-type: square;
+  margin-left: 2em;
+}
+.entry-content ol, .sidebar ol {
+  list-style-type: decimal;
+}
 .entry-content table, .sidebar table {
   width: 100%;
   border: 1px solid #eaeaea;

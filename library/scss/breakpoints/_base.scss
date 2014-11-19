@@ -332,18 +332,27 @@ POSTS & CONTENT STYLES
 			ul, ol, table, dl {}
 
 			ul, ol {
-
-				li {}
+					margin-left: 1.5em; 
 
 			}
 
 			ul {
 
-				li {}
+				li {
+					list-style-type: disc; 
+					list-style-position: outside; 
+					ul li { 
+						/* second level */ 
+						list-style-type: square; 
+						margin-left: 2em; 
+					} 
+				}
 
 			}
 
 			ol {
+				list-style-type: decimal; 
+
 
 				li {}
 
