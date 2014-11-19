@@ -1047,7 +1047,7 @@ and it will create a button dependant on those variables.
   background-color: #2472a4;
 }
 
-.white-button, .slim-button, .pagination a, .pagination span, .comment-reply-link, #submit {
+.white-button, .pagination a, .pagination span, .slim-button, .comment-reply-link, #submit {
   display: inline-block;
   background-color: #fafafa;
   border: 1px solid #eeeeee;
@@ -1058,15 +1058,15 @@ and it will create a button dependant on those variables.
   -webkit-border-radius: 3px;
   padding: 10px;
 }
-.white-button:hover, .slim-button:hover, .pagination a:hover, .pagination span:hover, .comment-reply-link:hover, #submit:hover, .white-button:active, .slim-button:active, .pagination a:active, .pagination span:active, .comment-reply-link:active, #submit:active, .white-button:focus, .slim-button:focus, .pagination a:focus, .pagination span:focus, .comment-reply-link:focus, #submit:focus, .white-button:visited, .slim-button:visited, .pagination a:visited, .pagination span:visited, .comment-reply-link:visited, #submit:visited, .white-button:visited:hover, .slim-button:visited:hover, .pagination a:visited:hover, .pagination span:visited:hover, .comment-reply-link:visited:hover, #submit:visited:hover, .white-button:visited:focus, .slim-button:visited:focus, .pagination a:visited:focus, .pagination span:visited:focus, .comment-reply-link:visited:focus, #submit:visited:focus {
+.white-button:hover, .pagination a:hover, .pagination span:hover, .slim-button:hover, .comment-reply-link:hover, #submit:hover, .white-button:active, .pagination a:active, .pagination span:active, .slim-button:active, .comment-reply-link:active, #submit:active, .white-button:focus, .pagination a:focus, .pagination span:focus, .slim-button:focus, .comment-reply-link:focus, #submit:focus, .white-button:visited, .pagination a:visited, .pagination span:visited, .slim-button:visited, .comment-reply-link:visited, #submit:visited, .white-button:visited:hover, .pagination a:visited:hover, .pagination span:visited:hover, .slim-button:visited:hover, .comment-reply-link:visited:hover, #submit:visited:hover, .white-button:visited:focus, .pagination a:visited:focus, .pagination span:visited:focus, .slim-button:visited:focus, .comment-reply-link:visited:focus, #submit:visited:focus {
   color: #444444;
 }
-.white-button:hover, .slim-button:hover, .pagination a:hover, .pagination span:hover, .comment-reply-link:hover, #submit:hover, .current.white-button, .current.slim-button, .pagination a.current, .pagination span.current, .current.comment-reply-link, .current#submit, .white-button:active, .slim-button:active, .pagination a:active, .pagination span:active, .comment-reply-link:active, #submit:active {
+.white-button:hover, .pagination a:hover, .pagination span:hover, .slim-button:hover, .comment-reply-link:hover, #submit:hover, .current.white-button, .pagination a.current, .pagination span.current, .current.slim-button, .current.comment-reply-link, .current#submit, .white-button:active, .pagination a:active, .pagination span:active, .slim-button:active, .comment-reply-link:active, #submit:active {
   background-color: #eaeaea;
   border-color: #eaeaea;
 }
 
-.white-button {
+.white-button, .pagination a, .pagination span {
   background-color: white;
 }
 
@@ -1895,6 +1895,13 @@ COMMENT STYLES
   padding: 7px;
   border-left: 2px solid #eaeaea;
   padding-left: 1em;
+}
+
+.pingback .avatar {
+  /* pingbacks aren't loading gravatars properly, so
+   * let's disable them for now. 
+   */
+  display: none;
 }
 
 /* comment meta */
