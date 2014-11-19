@@ -1,6 +1,6 @@
 /******************************************************************
-Site Name:
-Author:
+Site Name: CBOX MLA Blog
+Author: Jonathan Reeve
 
 Stylesheet: Tablet & Small Desktop Stylesheet
 
@@ -157,7 +157,7 @@ SIDEBARS & ASIDES
 
 	.widget {
 		padding: 0 10px;
-		margin: 2.2em 0;
+		margin: 2.2em 0 1em;
 
 		ul {
 			li {
@@ -283,9 +283,10 @@ FOOTER STYLES
 	h4 { 
 		background-color: $black;
 		padding: 0; 
-		margin: 0; 
 		font-size: 150%; 
 		font-weight: normal; 
+		line-height: 0.8em; 
+		margin: 0.3em 0; 
 	} 
 	.widget {  
 		ul { 

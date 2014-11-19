@@ -164,8 +164,8 @@ whatever you use in here.
 
 ******************************************************************/
 /******************************************************************
-Site Name:
-Author:
+Site Name: CBOX MLA Blog
+Author: Jonathan Reeve
 
 Stylesheet: 481px and Up Stylesheet
 
@@ -244,8 +244,8 @@ do they need tweaking?
 */
 /* end .footer-links */
 /******************************************************************
-Site Name:
-Author:
+Site Name: CBOX MLA Blog
+Author: Jonathan Reeve
 
 Stylesheet: Tablet & Small Desktop Stylesheet
 
@@ -361,7 +361,7 @@ SIDEBARS & ASIDES
 
 .widget {
   padding: 0 10px;
-  margin: 2.2em 0;
+  margin: 2.2em 0 1em;
 }
 .widget ul li {
   margin-bottom: 0.75em;
@@ -401,9 +401,10 @@ FOOTER STYLES
 .footer h4 {
   background-color: #444444;
   padding: 0;
-  margin: 0;
   font-size: 150%;
   font-weight: normal;
+  line-height: 0.8em;
+  margin: 0.3em 0;
 }
 .footer .widget ul {
   margin-left: 1.5em;
@@ -435,8 +436,8 @@ mobile. Make sure to double check these!
 
 /* end .footer-links */
 /******************************************************************
-Site Name:
-Author:
+Site Name: CBOX MLA Blog
+Author: Jonathan Reeve
 
 Stylesheet: Desktop Stylsheet
 

@@ -55,7 +55,6 @@ module.exports = function(grunt) {
 					'../css/style.css': '../scss/style.scss',
 					'../css/ie.css': '../scss/ie.scss',
 					'../css/login.css': '../scss/login.scss',
-					'../css/admin.css': '../scss/admin.scss'
 				}
 			},
 			prod: {
@@ -66,7 +65,6 @@ module.exports = function(grunt) {
 					'../css/style.css': '../scss/style.scss',
 					'../css/ie.css': '../scss/ie.scss',
 					'../css/login.css': '../scss/login.scss',
-					'../css/admin.css': '../scss/admin.scss'
 				}
 			}
 		},

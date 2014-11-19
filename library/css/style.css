@@ -1475,7 +1475,7 @@ H1, H2, H3, H4, H5 STYLES
 h1, .h1, h2, .single-title, .h2, h3, .h3, h4, .h4, h5, .h5 {
   text-rendering: optimizelegibility;
   font-weight: 500;
-  /* 
+  /*
    * if you're going to use webfonts, be sure to check your weights
    * http://css-tricks.com/watch-your-font-weight/
    */
@@ -2029,8 +2029,8 @@ tweeners.
 *********************/
 @media only screen and (min-width: 481px) {
   /******************************************************************
-  Site Name:
-  Author:
+  Site Name: CBOX MLA Blog
+  Author: Jonathan Reeve
   
   Stylesheet: 481px and Up Stylesheet
   
@@ -2117,8 +2117,8 @@ you can add resource intensive styles.
 *********************/
 @media only screen and (min-width: 768px) {
   /******************************************************************
-  Site Name:
-  Author:
+  Site Name: CBOX MLA Blog
+  Author: Jonathan Reeve
   
   Stylesheet: Tablet & Small Desktop Stylesheet
   
@@ -2234,7 +2234,7 @@ you can add resource intensive styles.
 
   .widget {
     padding: 0 10px;
-    margin: 2.2em 0;
+    margin: 2.2em 0 1em;
   }
   .widget ul li {
     margin-bottom: 0.75em;
@@ -2274,9 +2274,10 @@ you can add resource intensive styles.
   .footer h4 {
     background-color: #444444;
     padding: 0;
-    margin: 0;
     font-size: 150%;
     font-weight: normal;
+    line-height: 0.8em;
+    margin: 0.3em 0;
   }
   .footer .widget ul {
     margin-left: 1.5em;
@@ -2316,8 +2317,8 @@ you can add resource intensive styles.
 *********************/
 @media only screen and (min-width: 1030px) {
   /******************************************************************
-  Site Name:
-  Author:
+  Site Name: CBOX MLA Blog
+  Author: Jonathan Reeve
   
   Stylesheet: Desktop Stylsheet
   
@@ -2335,8 +2336,8 @@ This is for the larger monitors and possibly full screen viewers.
 *********************/
 @media only screen and (min-width: 1240px) {
   /******************************************************************
-  Site Name: 
-  Author: 
+  Site Name: CBOX MLA Blog
+  Author: Jonathan Reeve
   
   Stylesheet: Super Large Monitor Stylesheet
   
@@ -2353,8 +2354,8 @@ query for retina AND a certain size if you want. Go Nuts.
 *********************/
 @media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min--moz-device-pixel-ratio: 1.5), only screen and (min-device-pixel-ratio: 1.5) {
   /******************************************************************
-  Site Name: 
-  Author: 
+  Site Name: CBOX MLA Blog
+  Author: Jonathan Reeve 
   
   Stylesheet: Retina Screens & Devices Stylesheet
   
