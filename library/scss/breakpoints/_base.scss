@@ -732,7 +732,12 @@ COMMENT STYLES
 	&.thread-even {}
 }
 
-
+.pingback .avatar { 
+	/* pingbacks aren't loading gravatars properly, so
+	 * let's disable them for now. 
+	 */ 
+	display: none; 
+} 
 
 
 	/* comment meta */
