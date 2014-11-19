@@ -9,6 +9,12 @@ This is a theme designed for official MLA blogs on the _MLA Commons_. It's based
    - Recent Posts
    - Categories
    - Text: About this FAQ
+ * [ ] executivecouncil
+ * [ ] execdirector
+ * [ ] faq
+ * [ ] news
+ * [ ] president
+ * [ ] convention
 
 # Bones
 A Lightweight Wordpress Development Theme
