@@ -900,6 +900,14 @@ FOOTER STYLES
 		background-color: $dark-gray;
 		color: $dark-link-color;
 	}
+	.rsswidget { 
+		a { 
+			margin-left: 5px; 
+		} 
+		img { 
+			display: none; 
+		} 
+	} 
 	.copyright {
 		margin-bottom: 0; /* stop appearance of white bar at the bottom */
 	}

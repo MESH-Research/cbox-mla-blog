@@ -2006,6 +2006,12 @@ FOOTER STYLES
   background-color: #333333;
   color: #dddddd;
 }
+.footer .rsswidget a {
+  margin-left: 5px;
+}
+.footer .rsswidget img {
+  display: none;
+}
 .footer .copyright {
   margin-bottom: 0;
   /* stop appearance of white bar at the bottom */
