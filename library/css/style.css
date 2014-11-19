@@ -2003,7 +2003,11 @@ SIDEBARS & ASIDES
   padding-bottom: 1.5em;
 }
 
+.widget ul {
+  margin-left: 0;
+}
 .widget ul li {
+  list-style-type: none;
   /* deep nesting */
 }
 

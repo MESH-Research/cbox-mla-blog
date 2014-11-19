@@ -873,8 +873,10 @@ SIDEBARS & ASIDES
 	.widget {
 
 		ul {
+			margin-left: 0; 
 
 			li {
+				list-style-type: none; 
 
 				&:first-child {}
 
