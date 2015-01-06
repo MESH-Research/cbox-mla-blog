@@ -42,7 +42,6 @@ New York, NY 10004<br>
 					<?php
 						the_widget('WP_Widget_Text', 'title=Get Help&text=<ul><li>See <a href="http://commons.mla.org/docs/getting-started/">Getting Started</a>.</li>
 <li>Join the member <a href="http://commons.mla.org/groups/mla-commons-help">Help Group</a>.</li>
-<li>Consult our <a href="https://mlacommons.uservoice.com/">Support Knowledge Base</a>.</li>
 <li>E-mail us at <a href="mailto:commons@mla.org">commons@mla.org</a>.</li></ul>', 'before_title=<h4>&after_title=</h4>');
 					?>
 				</div>
