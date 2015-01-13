@@ -40,7 +40,7 @@ New York, NY 10004<br>
 
 <div style="clear:both;"></div>
 
-					<p class="source-org copyright">Copyright &copy; 2012-2014 MLA. Released under the GPLv3.</p>
+					<p class="source-org copyright">Copyright &copy; 2012–2015 MLA. Powered by <a href="http://commonsinabox.org">Commons In A Box</a>. Based on a design by <a href="http://communitystructure.com">Community Structure</a>.<br/><a href="http://commons.mla.org/terms/">Terms of Service</a> • <a href="http://commons.mla.org/privacy/">Privacy Policy</a> • <a href="http://commons.mla.org/guidelines/">Guidelines for Participation</a></p>
 
 			</footer>
 
