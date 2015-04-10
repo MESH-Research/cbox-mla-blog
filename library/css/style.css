@@ -2067,6 +2067,67 @@ FOOTER STYLES
 }
 
 /*********************
+SPECIAL PAGES
+*********************/
+/* Custom styles for revised MLA Forums post in Exec Council */
+.mla-forums .type, .mla-forums .category {
+  display: inline-block;
+  margin: 0 2px;
+  padding: 4px 0.25em;
+  color: #666;
+  font-size: 0.9em;
+  line-height: 0.9em;
+  border: solid 1px #ccc;
+  border-radius: 4px;
+  font-weight: normal;
+}
+.mla-forums .merged, .mla-forums .split, .mla-forums .new, .mla-forums .reconfigured {
+  font-weight: bold;
+}
+.mla-forums .merged {
+  color: #009;
+}
+.mla-forums .split {
+  color: #060;
+}
+.mla-forums .new {
+  color: #f60;
+}
+.mla-forums .reconfigured {
+  color: #90d;
+}
+.mla-forums .related {
+  position: relative;
+  top: -1px;
+  padding-left: 0.5em;
+  color: #999;
+  font-size: 0.9em;
+}
+.mla-forums .category {
+  margin: 0 5px 0 0;
+  color: #333;
+}
+.mla-forums .forums-list li {
+  list-style-type: none;
+  line-height: 1.9em;
+}
+.mla-forums header {
+  padding: 1em 0;
+  border-bottom: none;
+}
+.mla-forums header h2, .mla-forums header .single-title {
+  margin: 0;
+}
+.mla-forums ul {
+  margin-left: 0;
+  /* flush left! */
+}
+.mla-forums ul li {
+  list-style-type: none;
+  line-height: 1.6em;
+}
+
+/*********************
 LARGER MOBILE DEVICES
 This is for devices like the Galaxy Note or something that's
 larger than an iPhone but smaller than a tablet. Let's call them

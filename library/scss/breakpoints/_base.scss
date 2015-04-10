@@ -946,3 +946,67 @@ FOOTER STYLES
 		padding: 0;
 	}
 }
+
+/*********************
+SPECIAL PAGES
+*********************/
+
+/* Custom styles for revised MLA Forums post in Exec Council */
+
+.mla-forums {
+	.type, .category {
+		display: inline-block;
+		margin: 0 2px;
+		padding: 4px 0.25em;
+		color: #666;
+		font-size: 0.9em;
+		line-height: 0.9em;
+		border: solid 1px #ccc;
+		border-radius: 4px;
+		font-weight: normal;
+	}
+	.merged, .split, .new, .reconfigured { 
+		font-weight: bold; 
+	} 
+	.merged {
+		color: #009;
+	}
+	.split {
+		color: #060;
+	}
+	.new {
+		color: #f60;
+	}
+	.reconfigured {
+		color: #90d;
+	}
+	.related {
+		position: relative;
+		top: -1px;
+		padding-left: 0.5em;
+		color: #999;
+		font-size: 0.9em;
+	}
+	.category {
+		margin: 0 5px 0 0;
+		color: #333;
+	}
+	.forums-list li {
+		list-style-type: none;
+		line-height: 1.9em;
+	}
+	header { 
+		padding: 1em 0; 
+		border-bottom: none; 
+		h2 { 
+			margin: 0; 
+		} 
+	} 
+	ul { 
+		margin-left: 0; /* flush left! */ 
+		li { 
+			list-style-type: none;
+			line-height: 1.6em; 
+		} 
+	} 
+}
