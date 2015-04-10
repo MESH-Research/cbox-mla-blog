@@ -4,17 +4,7 @@ This is a theme designed for official MLA blogs on the _MLA Commons_. It's based
 
 # Content Changes Required for 2.0 Rollout
 
- * [ ] In `blog.commons.mla.org/wp-admin/themes.php`, activate another theme and then re-activate the cbox-mla-blog theme.  
- * [ ] In Dashboard -> Appearance -> Widgets, populate "Sidebar 1" with content from existing blog. This will be slightly different for each blog. For FAQ, it's: 
-   - Recent Posts
-   - Categories
-   - Text: About this FAQ
- * [ ] executivecouncil
- * [ ] execdirector
- * [ ] faq
- * [ ] news
- * [ ] president
- * [ ] convention
+Run the script `rollout.sh` with the site to apply this theme to, like `rollout.sh execdirector`. 
 
 # Bones
 A Lightweight Wordpress Development Theme
@@ -52,5 +42,3 @@ doing with my life, follow me on twitter: @eddiemachado
 Yeoman generator to quickly install Bones Wordpress starter theme into your Wordpress theme folder
 by 0dp
 https://github.com/0dp/generator-wp-bones
-
-
