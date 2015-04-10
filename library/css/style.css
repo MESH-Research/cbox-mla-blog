@@ -1763,10 +1763,14 @@ POSTS & CONTENT STYLES
   padding: 1%;
 }
 .gallery dl img {
-  margin: 0;
+  margin: 0 auto;
 }
 .gallery dd {
   margin-bottom: 0.5em;
+}
+.gallery dd.wp-caption-text {
+  margin: 0.3em;
+  line-height: 1.3em;
 }
 
 /* end .gallery */
