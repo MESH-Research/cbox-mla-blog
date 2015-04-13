@@ -40,7 +40,7 @@ case $SITE in
 		for WIDGET in archives categories recent-posts pages; do wp widget add $WIDGET sidebar1 $URL; done 
 
 		# add text widget
-		wp widget add text sidebar1 --text='<a href="http://www.mla.org/convention"><img src="http://convention.commons.mla.org/files/2014/02/mla-2015.jpg" alt="Vancouver 2015 convention logo" height="136" width="250"></a>' $URL
+		wp widget add text sidebar1 --text='<a href="http://www.mla.org/convention"><img src="https://convention.commons.mla.org/files/2015/04/austin-logo-rendered-smaller.png" alt="Vancouver 2015 convention logo" height="136" width="250"></a>' $URL
 		;;
 
 	pmla) 
