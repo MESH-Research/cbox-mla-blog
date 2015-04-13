@@ -52,7 +52,9 @@
 
 				<div id="inner-header" class="wrap cf">
 
-					<img class="logo-img" src="<?php echo get_template_directory_uri(); ?>/library/images/logo.png">
+					<a href="<?php echo network_site_url(); ?>">
+						<img class="logo-img" src="<?php echo get_template_directory_uri(); ?>/library/images/logo.png">
+					</a> 
 					<p id="logo" class="h1"><a href="<?php echo home_url(); ?>" rel="nofollow"><?php bloginfo('name'); ?></a></p>
 
 					<?php // if you'd like to use the site description you can un-comment it below ?>
