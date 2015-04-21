@@ -1,7 +1,8 @@
 # verbose debugging
 set -ex
 
-SERVER=hemingway.dev
+SERVER=melville.dev
+IMAGE_DATE=2015/04
 
 # Get site name from URL parameter. 
 # I.e., call this script with "./rollout.sh faq"
@@ -13,10 +14,43 @@ URL=--url=$SITE.$SERVER
 # activate another theme and then re-activate our theme
 for THEME in twentyfourteen cbox-mla-blog; do wp theme activate $THEME $URL; done
 
+# define function for setting pictures which we're going to use for certain blogs below
+set_picture() { 
+	# upload picture
+	wp media import images/$FILE --title="$NAME" $URL
+
+	# add picture of exec director
+	wp widget add text sidebar1 --text="<img src=\"http://$SITE.$SERVER/files/$IMAGE_DATE/$FILE\" title=\"$NAME\" class=\"sidebar-image\">" $URL
+} 
+
 case $SITE in 
-	president|execdirector)
+	president)
+		NAME='Roland Greene' 
+		FILE=roland.jpg
+
 		# add the widgets
 		for WIDGET in archives categories pages recent-posts; do wp widget add $WIDGET sidebar1 $URL; done 
+
+		set_picture
+		;;
+
+	execdirector)
+		NAME='Rosemary Feal'
+		FILE=rosemary.jpg
+
+		# add the widgets
+		for WIDGET in archives categories pages recent-posts; do wp widget add $WIDGET sidebar1 $URL; done 
+
+		set_picture
+		;;
+
+	executivecouncil)
+		NAME='Executive Council'
+		FILE=council.jpg
+
+		for WIDGET in archives categories recent-comments pages recent-posts; do wp widget add $WIDGET sidebar1 $URL; done 
+
+		set_picture
 		;;
 
 	news) 
@@ -48,7 +82,4 @@ case $SITE in
 		for WIDGET in archives categories recent-posts; do wp widget add $WIDGET sidebar1 $URL; done 
 		;;
 
-	executivecouncil)
-		for WIDGET in archives categories recent-comments pages recent-posts; do wp widget add $WIDGET sidebar1 $URL; done 
-		;;
 esac 
