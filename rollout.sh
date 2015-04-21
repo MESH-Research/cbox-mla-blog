@@ -1,7 +1,7 @@
 # verbose debugging
 set -ex
 
-SERVER=melville.dev
+SERVER=thoreau.mlacommons.org
 IMAGE_DATE=2015/04
 
 # Get site name from URL parameter. 
@@ -17,7 +17,7 @@ for THEME in twentyfourteen cbox-mla-blog; do wp theme activate $THEME $URL; don
 # define function for setting pictures which we're going to use for certain blogs below
 set_picture() { 
 	# upload picture
-	wp media import images/$FILE --title="$NAME" $URL
+	sudo -u www-data wp media import images/$FILE --title="$NAME" $URL
 
 	# add picture of exec director
 	wp widget add text sidebar1 --text="<img src=\"http://$SITE.$SERVER/files/$IMAGE_DATE/$FILE\" title=\"$NAME\" class=\"sidebar-image\">" $URL
