@@ -1012,7 +1012,7 @@ http://www.youtube.com/watch?v=hwdVpKiJzac
   position: relative;
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-decoration: none;
-  color: white;
+  color: #fff;
   font-size: 0.9em;
   font-size: 34px;
   line-height: 34px;
@@ -1025,7 +1025,7 @@ http://www.youtube.com/watch?v=hwdVpKiJzac
   transition: background-color 0.14s ease-in-out;
 }
 .blue-btn:hover, .blue-btn:focus {
-  color: white;
+  color: #fff;
   text-decoration: none;
 }
 .blue-btn:active {
@@ -1050,16 +1050,16 @@ and it will create a button dependant on those variables.
 .white-button, .pagination a, .pagination span, .slim-button, .comment-reply-link, #submit {
   display: inline-block;
   background-color: #fafafa;
-  border: 1px solid #eeeeee;
-  border-bottom: 2px solid #eeeeee;
-  color: #444444;
+  border: 1px solid #eee;
+  border-bottom: 2px solid #eee;
+  color: #444;
   border-radius: 3px;
   -moz-border-radius: 3px;
   -webkit-border-radius: 3px;
   padding: 10px;
 }
 .white-button:hover, .pagination a:hover, .pagination span:hover, .slim-button:hover, .comment-reply-link:hover, #submit:hover, .white-button:active, .pagination a:active, .pagination span:active, .slim-button:active, .comment-reply-link:active, #submit:active, .white-button:focus, .pagination a:focus, .pagination span:focus, .slim-button:focus, .comment-reply-link:focus, #submit:focus, .white-button:visited, .pagination a:visited, .pagination span:visited, .slim-button:visited, .comment-reply-link:visited, #submit:visited, .white-button:visited:hover, .pagination a:visited:hover, .pagination span:visited:hover, .slim-button:visited:hover, .comment-reply-link:visited:hover, #submit:visited:hover, .white-button:visited:focus, .pagination a:visited:focus, .pagination span:visited:focus, .slim-button:visited:focus, .comment-reply-link:visited:focus, #submit:visited:focus {
-  color: #444444;
+  color: #444;
 }
 .white-button:hover, .pagination a:hover, .pagination span:hover, .slim-button:hover, .comment-reply-link:hover, #submit:hover, .current.white-button, .pagination a.current, .pagination span.current, .current.slim-button, .current.comment-reply-link, .current#submit, .white-button:active, .pagination a:active, .pagination span:active, .slim-button:active, .comment-reply-link:active, #submit:active {
   background-color: #eaeaea;
@@ -1067,7 +1067,7 @@ and it will create a button dependant on those variables.
 }
 
 .white-button, .pagination a, .pagination span {
-  background-color: white;
+  background-color: #fff;
 }
 
 .slim-button {
@@ -1120,7 +1120,7 @@ textarea,
   line-height: 40px;
   margin-bottom: 14px;
   font-size: 1em;
-  color: #444444;
+  color: #444;
   vertical-align: middle;
   box-shadow: none;
   width: 100%;
@@ -1202,7 +1202,7 @@ textarea.is-invalid,
 .field.is-invalid {
   color: #fbe3e4;
   border-color: #fbe3e4;
-  background-color: white;
+  background-color: #fff;
   background-position: 99% center;
   background-repeat: no-repeat;
   background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABYAAAAWCAYAAADEtGw7AAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyRpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMy1jMDExIDY2LjE0NTY2MSwgMjAxMi8wMi8wNi0xNDo1NjoyNyAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENTNiAoTWFjaW50b3NoKSIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDo2NDM0NDREQkYwNEIxMUUyOTI4REZGQTEzMzA2MDcyNiIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDo2NDM0NDREQ0YwNEIxMUUyOTI4REZGQTEzMzA2MDcyNiI+IDx4bXBNTTpEZXJpdmVkRnJvbSBzdFJlZjppbnN0YW5jZUlEPSJ4bXAuaWlkOjQ3ODRGRkE2RjA0QTExRTI5MjhERkZBMTMzMDYwNzI2IiBzdFJlZjpkb2N1bWVudElEPSJ4bXAuZGlkOjY0MzQ0NERBRjA0QjExRTI5MjhERkZBMTMzMDYwNzI2Ii8+IDwvcmRmOkRlc2NyaXB0aW9uPiA8L3JkZjpSREY+IDwveDp4bXBtZXRhPiA8P3hwYWNrZXQgZW5kPSJyIj8+U8iT5wAAAedJREFUeNqk1U9I02Ecx/HtV3aIFAc1hcRDUoGXRAq0oNLA2CrsEFmHbikZu0iQYIFGYAiegkCpLipBxPpDEBMUzB0EhSG2LhG7hMR2GviPgUTvB57Bw8P3+U23B16HPX8+e/b8nt93wezZSMCnhXETF3AcB5BDCnH8Dq98ExcGHcFn8Ah3cdDni+fxnPDv9oAnTB7CKu6VCFXtChZy56LxUjt+jfuB8toSOth9wd7xWAWhqrUjYR/FRTwWJm+iIPT/w7bQf5ljiZnBg45dtKFX6H+LU8gIY8OEV6vgTkStwXWE8BPTGDHGPqNPz2mCfSOOYkA99TvCt1bhGPL68zMcwmncMuape10jrI+q4BbHi/FLn31S9z2x5tRhTc+1W506ipM+T3oRD4X+8+qtc4SqFvL0z/Fr14S+Szjis8bz9Lvvaq8cwS/wwGfdlqfPSWqTiFlX77o13u9Ym1PBs8JAytpRoy44X9Ft9E/gvbA+rYKn8NcaaMVc8UHgBw4b9/iqUQZ6hOAJFbyDcUflmsEX4a6+wTtHGfhAIUqa1U29Zc2BytouThD8x6xuN5CtMPi2CrXLZkZf/HyZoRFCP7n+QVR4PV7uI/AjGghN7OU/r1ilnqILtfpNC+o6vIFljBKYlhb/F2AAgaBsWR5wRiIAAAAASUVORK5CYII=);
@@ -1243,7 +1243,7 @@ textarea.is-valid,
 .field.is-valid {
   color: #e6efc2;
   border-color: #e6efc2;
-  background-color: white;
+  background-color: #fff;
   background-position: 99% center;
   background-repeat: no-repeat;
   background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABYAAAAWCAYAAADEtGw7AAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyRpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMy1jMDExIDY2LjE0NTY2MSwgMjAxMi8wMi8wNi0xNDo1NjoyNyAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENTNiAoTWFjaW50b3NoKSIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDo2NDM0NDRERkYwNEIxMUUyOTI4REZGQTEzMzA2MDcyNiIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDo2NDM0NDRFMEYwNEIxMUUyOTI4REZGQTEzMzA2MDcyNiI+IDx4bXBNTTpEZXJpdmVkRnJvbSBzdFJlZjppbnN0YW5jZUlEPSJ4bXAuaWlkOjY0MzQ0NERERjA0QjExRTI5MjhERkZBMTMzMDYwNzI2IiBzdFJlZjpkb2N1bWVudElEPSJ4bXAuZGlkOjY0MzQ0NERFRjA0QjExRTI5MjhERkZBMTMzMDYwNzI2Ii8+IDwvcmRmOkRlc2NyaXB0aW9uPiA8L3JkZjpSREY+IDwveDp4bXBtZXRhPiA8P3hwYWNrZXQgZW5kPSJyIj8+7olkTQAAAfhJREFUeNqklU9oE0EUhzdroWjw0tBeWlDxkEaIp55TsCU9VKIgCrHBelA8CQ1Kr1WPbZrQ3gqtQqvGqxpQc2jBk6BIIaAGD4qNCKURpDSKiPi98gLDsJt//uBjsztvfnk7895sIPAw6/joGMThFJyAXn2+A+9gA57/TaY/eU0OeBgfhGm4DiGnsb7DAszxBz/NAdcKjMJLuNWCqagHbsscN5+L+hmH4QkMOe1L5jzFfNA2PgT34ajTuY7AGuZB0/hmh5m+gS0r8xv1zRvg+gGCHZiOwnF4DP3iB3sQkYxPd2C6CWfhB9Xwlus5+K1j4jXuaq3a+gM1H9OPcAa+7q9lPidZJqHbiIm7Wg22rsEI7FrPSzAMX/T+ADyAKSsu7Fr1KplehLvwCs5DvfBf65p+MypqRbO1FXK9utH4/QKuaqYTsG3E3INJv00Q46px3+XxanJ/Ute2/vqP4FKDza2KcdljIKdnhS0xXYULTaqmLMZFn8FFSFtvt6x70ExFCS5oUXspq2ssa7oEl1swFa+CGFdgtkHgPDyDKy02zyxNU6lXRUZb1EuHYayNNs+Yh5B0WQo+/8fpJnNTZFuzz2OpjoQ2QruSOQlMy35fEGmEGMxY9e1brxobw7TkWA1h6xfckUPb+JhGoE/Hpfvew7qUld/H9J8AAwDpw3WYrxcZ3QAAAABJRU5ErkJggg==);
@@ -1397,7 +1397,7 @@ body {
   font-family: "proxima-nova", Helvetica, sans-serif;
   font-size: 100%;
   line-height: 1.5;
-  color: #444444;
+  color: #444;
   background-color: #fafafa;
   -webkit-font-smoothing: antialiased;
 }
@@ -1459,7 +1459,7 @@ LAYOUT & GRID STYLES
 LINK STYLES
 *********************/
 a, a:visited {
-  color: #0077dd;
+  color: #07d;
   text-decoration: none;
   /* on hover */
   /* on click */
@@ -1492,7 +1492,7 @@ h1, .h1, h2, .single-title, .h2, h3, .h3, h4, .h4, h5, .h5 {
 }
 h1 a, .h1 a, h2 a, .single-title a, .h2 a, h3 a, .h3 a, h4 a, .h4 a, h5 a, .h5 a {
   text-decoration: none;
-  color: #444444;
+  color: #444;
 }
 
 h1, .h1 {
@@ -1526,8 +1526,8 @@ h5, .h5 {
 HEADER STYLES
 *********************/
 .header {
-  background-color: white;
-  border-bottom: 1px solid #eeeeee;
+  background-color: #fff;
+  border-bottom: 1px solid #eee;
 }
 .header .logo-img {
   margin: 2em 0 0;
@@ -1537,7 +1537,7 @@ HEADER STYLES
   margin: 0 0 0.75em;
 }
 #logo a {
-  color: #444444;
+  color: #444;
 }
 
 /*********************
@@ -1568,7 +1568,7 @@ and more scalable.
 }
 .nav li a {
   display: block;
-  color: white;
+  color: #fff;
   text-decoration: none;
   padding: 0.75em;
   /*
@@ -1592,11 +1592,11 @@ POSTS & CONTENT STYLES
 }
 
 .hentry, .sidebar {
-  background-color: white;
+  background-color: #fff;
   border-radius: 3px;
   margin-bottom: 1.5em;
-  border: 1px solid #eeeeee;
-  border-bottom: 2px solid #eeeeee;
+  border: 1px solid #eee;
+  border-bottom: 2px solid #eee;
 }
 .hentry header, .sidebar header {
   border-bottom: 1px solid #eaeaea;
@@ -1628,7 +1628,7 @@ POSTS & CONTENT STYLES
 /* style by tag (i.e. tag-news) */
 /* post meta */
 .byline {
-  color: #777777;
+  color: #777;
   margin: 0;
 }
 
@@ -1668,7 +1668,7 @@ POSTS & CONTENT STYLES
 .entry-content table caption, .sidebar table caption {
   margin: 0 0 7px;
   font-size: 0.75em;
-  color: #777777;
+  color: #777;
   text-transform: uppercase;
   letter-spacing: 1px;
 }
@@ -1698,7 +1698,7 @@ POSTS & CONTENT STYLES
   padding: 0 0 0 0.75em;
   border-left: 3px solid #eaeaea;
   font-style: italic;
-  color: #777777;
+  color: #777;
 }
 .entry-content dd, .sidebar dd {
   margin-left: 0;
@@ -1725,7 +1725,7 @@ POSTS & CONTENT STYLES
   height: auto;
 }
 .entry-content pre, .sidebar pre {
-  background: #444444;
+  background: #444;
   color: #fafafa;
   font-size: 0.9em;
   padding: 1.5em;
@@ -1887,7 +1887,7 @@ COMMENT STYLES
   font-size: 0.9em;
 }
 .comment .vcard time a, .pingback .vcard time a {
-  color: #777777;
+  color: #777;
   text-decoration: none;
 }
 .comment .vcard time a:hover, .pingback .vcard time a:hover {
@@ -1965,12 +1965,12 @@ COMMENT FORM STYLES
 }
 
 .logged-in-as {
-  color: #777777;
+  color: #777;
   font-style: italic;
   margin: 0;
 }
 .logged-in-as a {
-  color: #444444;
+  color: #444;
 }
 
 .comment-form-comment {
@@ -2012,6 +2012,11 @@ SIDEBARS & ASIDES
 .sidebar {
   padding-bottom: 1.5em;
 }
+.sidebar .sidebar-image {
+  max-width: 80%;
+  border-radius: 3%;
+  box-shadow: 0px 3px 4px 1px rgba(0, 0, 0, 0.2);
+}
 
 .widget ul {
   margin-left: 0;
@@ -2022,10 +2027,10 @@ SIDEBARS & ASIDES
 }
 
 .no-widgets {
-  background-color: white;
+  background-color: #fff;
   padding: 1.5em;
   text-align: center;
-  border: 1px solid #eeeeee;
+  border: 1px solid #eee;
   border-radius: 2px;
   margin-bottom: 1.5em;
 }
@@ -2035,15 +2040,15 @@ FOOTER STYLES
 *********************/
 .footer {
   clear: both;
-  background-color: #444444;
-  color: darkgray;
+  background-color: #444;
+  color: #a9a9a9;
   text-align: center;
   /* center everything on mobile */
 }
 .footer h4, .footer .copyright {
   padding: 1em;
-  background-color: #333333;
-  color: #dddddd;
+  background-color: #333;
+  color: #ddd;
 }
 .footer .rsswidget a {
   margin-left: 5px;
@@ -2056,10 +2061,10 @@ FOOTER STYLES
   /* stop appearance of white bar at the bottom */
 }
 .footer a, .footer a:visited {
-  color: #dddddd;
+  color: #ddd;
 }
 .footer a:hover, .footer a:active {
-  color: white;
+  color: #fff;
   text-decoration: none;
 }
 .footer .widget {
@@ -2258,7 +2263,7 @@ you can add resource intensive styles.
     /* end current highlighters */
   }
   .nav ul {
-    background: #444444;
+    background: #444;
     margin-top: 0;
   }
   .nav li {
@@ -2277,7 +2282,7 @@ you can add resource intensive styles.
     */
   }
   .nav li a:hover, .nav li a:focus {
-    color: white;
+    color: #fff;
     text-decoration: underline;
   }
   .nav li ul.sub-menu,
@@ -2377,7 +2382,7 @@ you can add resource intensive styles.
     margin-left: 5%;
   }
   .footer h4 {
-    background-color: #444444;
+    background-color: #444;
     padding: 0;
     font-size: 150%;
     font-weight: normal;
@@ -2392,7 +2397,7 @@ you can add resource intensive styles.
     list-style-type: disc;
   }
   .footer .copyright {
-    border-top: 1px solid #555555;
+    border-top: 1px solid #555;
     margin-bottom: 0;
     text-align: center;
     font-size: 0.8em;
