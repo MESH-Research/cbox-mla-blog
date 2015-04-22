@@ -2020,6 +2020,9 @@ SIDEBARS & ASIDES
 .sidebar .sidebar-image.full-width {
   max-width: 100%;
 }
+.sidebar .sidebar-caption {
+  font-size: 85%;
+}
 
 .widget ul {
   margin-left: 0;
