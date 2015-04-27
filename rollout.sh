@@ -20,13 +20,14 @@ set_picture() {
 	sudo -u www-data wp media import images/$FILE --title="$NAME" $URL
 
 	# add picture of exec director
-	wp widget add text sidebar1 --text="<img src=\"http://$SITE.$SERVER/files/$IMAGE_DATE/$FILE\" title=\"$NAME\" class=\"sidebar-image\">" $URL
+	wp widget add text sidebar1 --text="<img src=\"http://$SITE.$SERVER/files/$IMAGE_DATE/$FILE\" title=\"$NAME\" class=\"sidebar-image\"><p class=\"caption\">$CAPTION</p>" $URL
 } 
 
 case $SITE in 
 	president)
 		NAME='Roland Greene' 
 		FILE=roland.jpg
+		CAPTION='Roland Greene is the 2015–16 MLA President and Mark Pigott KBE Professor in the School of Humanities and Sciences at Stanford University.'
 
 		# add the widgets
 		for WIDGET in archives categories pages recent-posts; do wp widget add $WIDGET sidebar1 $URL; done 
@@ -37,6 +38,7 @@ case $SITE in
 	execdirector)
 		NAME='Rosemary Feal'
 		FILE=rosemary.jpg
+		CAPTION='Rosemary G. Feal is the executive director of the MLA. Her blog features columns from the MLA Newsletter, resources on the academic workforce and graduate education, and posts about other items of interest to MLA members.'
 
 		# add the widgets
 		for WIDGET in archives categories pages recent-posts; do wp widget add $WIDGET sidebar1 $URL; done 
@@ -47,6 +49,7 @@ case $SITE in
 	executivecouncil)
 		NAME='Executive Council'
 		FILE=council.jpg
+		CAPTION='The Executive Council blog features posts, discussions, and other information about council initiatives.' 
 
 		for WIDGET in archives categories recent-comments pages recent-posts; do wp widget add $WIDGET sidebar1 $URL; done 
 
