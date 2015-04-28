@@ -26,9 +26,10 @@
 								<footer class="article-footer cf">
 									<p class="footer-comment-count">
 									<?php 
+										$no_comments = '<a href="' . get_permalink() . '#comments-title">Leave a comment</a>.'; 
 										$one_comment = '<a href="' . get_permalink() . '#comments-title"><span>One</span> Comment</a>'; 
 										$num_comments = '<a href="' . get_permalink() . '#comments-title"><span>%</span> Comments</a>'; 
-										comments_number( __( '<span>No</span> Comments', 'cbox-mla-blog' ), __( $one_comment, 'cbox-mla-blog' ), __( $num_comments, 'cbox-mla-blog' ) );
+										comments_number( __( $no_comments, 'cbox-mla-blog' ), __( $one_comment, 'cbox-mla-blog' ), __( $num_comments, 'cbox-mla-blog' ) );
 									?>
 									</p>
 

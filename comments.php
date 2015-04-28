@@ -14,7 +14,7 @@ if ( post_password_required() ) {
 
   <?php if ( have_comments() ) : ?>
 
-    <h3 id="comments-title" class="h2"><?php comments_number( __( '<span>No</span> Comments', 'cbox-mla-blog' ), __( '<span>One</span> Comment', 'cbox-mla-blog' ), __( '<span>%</span> Comments', 'cbox-mla-blog' ) );?></h3>
+    <h3 id="comments-title" class="h2"><?php comments_number( __( '<span>Leave a comment.</span>', 'cbox-mla-blog' ), __( '<span>One</span> Comment', 'cbox-mla-blog' ), __( '<span>%</span> Comments', 'cbox-mla-blog' ) );?></h3>
 
     <section class="commentlist">
       <?php
