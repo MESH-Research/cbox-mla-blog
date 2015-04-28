@@ -2022,6 +2022,7 @@ SIDEBARS & ASIDES
 }
 .sidebar .sidebar-caption {
   font-size: 85%;
+  font-style: italic;
 }
 
 .widget ul {

@@ -1,7 +1,7 @@
 # verbose debugging
 set -ex
 
-SERVER=thoreau.mlacommons.org
+SERVER=melville.dev
 IMAGE_DATE=2015/04
 
 # Get site name from URL parameter. 
@@ -23,7 +23,7 @@ set_picture() {
 	sudo -u www-data wp media import images/$FILE --title="$NAME" $URL
 
 	# add picture of exec director
-	wp widget add text sidebar1 --text="<img src=\"http://$SITE.$SERVER/files/$IMAGE_DATE/$FILE\" title=\"$NAME\" class=\"sidebar-image\"><p class=\"caption\">$CAPTION</p>" $URL
+	wp widget add text sidebar1 --text="<img src=\"http://$SITE.$SERVER/files/$IMAGE_DATE/$FILE\" title=\"$NAME\" class=\"sidebar-image\"><p class=\"sidebar-caption\">$CAPTION</p>" $URL
 } 
 
 case $SITE in 
