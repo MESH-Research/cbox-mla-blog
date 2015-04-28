@@ -14,6 +14,9 @@ URL=--url=$SITE.$SERVER
 # activate another theme and then re-activate our theme
 for THEME in twentyfourteen cbox-mla-blog; do wp theme activate $THEME $URL; done
 
+# set the date format to MLA format: 28 April 2015 ('j F Y') 
+wp option update date_format 'j F Y' $URL
+
 # define function for setting pictures which we're going to use for certain blogs below
 set_picture() { 
 	# upload picture
