@@ -23,7 +23,7 @@ set_picture() {
 	sudo -u www-data wp media import images/$FILE --title="$NAME" $URL
 
 	# add picture of exec director
-	wp widget add text sidebar1 --text="<img src=\"http://$SITE.$SERVER/files/$IMAGE_DATE/$FILE\" title=\"$NAME\" class=\"sidebar-image\"><p class=\"sidebar-caption\">$CAPTION</p>" $URL
+	wp widget add text sidebar1 --text="<img src=\"//$SITE.$SERVER/files/$IMAGE_DATE/$FILE\" title=\"$NAME\" class=\"sidebar-image\"><p class=\"sidebar-caption\">$CAPTION</p>" $URL
 } 
 
 case $SITE in 
