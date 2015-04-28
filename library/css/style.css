@@ -2354,7 +2354,7 @@ you can add resource intensive styles.
     margin: 2.2em 0 1em;
   }
   .widget ul li {
-    margin-bottom: 0.75em;
+    margin-bottom: 1em;
     /* deep nesting */
   }
   .widget ul li ul {
