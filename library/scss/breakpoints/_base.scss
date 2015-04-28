@@ -1003,10 +1003,6 @@ SPECIAL PAGES
 		margin: 0 5px 0 0;
 		color: #333;
 	}
-	.forums-list li {
-		list-style-type: none;
-		line-height: 1.9em;
-	}
 	header { 
 		padding: 1em 0; 
 		border-bottom: none; 
@@ -1014,11 +1010,13 @@ SPECIAL PAGES
 			margin: 0; 
 		} 
 	} 
-	ul { 
-		margin-left: 0; /* flush left! */ 
-		li { 
-			list-style-type: none;
-			line-height: 1.6em; 
+	&.forums-list { 
+		ul { 
+			margin-left: 0; /* flush left! */ 
+			li { 
+				list-style-type: none;
+				line-height: 1.6em; 
+			} 
 		} 
 	} 
 }
