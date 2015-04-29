@@ -23,7 +23,7 @@ set_picture() {
 	sudo -u www-data wp media import images/$FILE --title="$NAME" $URL
 
 	# add picture of exec director
-	wp widget add text sidebar1 --text="<img src=\"//$SITE.$SERVER/files/$IMAGE_DATE/$FILE\" title=\"$NAME\" class=\"sidebar-image\"><p class=\"sidebar-caption\">$CAPTION</p>" $URL
+	wp widget add text sidebar1 --text="<img src=\"//$SITE.$SERVER/files/$IMAGE_DATE/$FILE\" title=\"$NAME\" class=\"sidebar-image $FULLWIDTH\"><p class=\"sidebar-caption\">$CAPTION</p>" $URL
 } 
 
 case $SITE in 
@@ -53,6 +53,7 @@ case $SITE in
 		NAME='Executive Council'
 		FILE=council.jpg
 		CAPTION='The Executive Council blog features posts, discussions, and other information about council initiatives.' 
+		FULLWIDTH=full-width
 
 		for WIDGET in archives categories recent-comments pages recent-posts; do wp widget add $WIDGET sidebar1 $URL; done 
 
