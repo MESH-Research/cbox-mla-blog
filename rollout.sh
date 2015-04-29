@@ -41,7 +41,7 @@ case $SITE in
 	execdirector)
 		NAME='Rosemary Feal'
 		FILE=rosemary.jpg
-		CAPTION='Rosemary G. Feal is the executive director of the MLA. Her blog features columns from the MLA Newsletter, resources on the academic workforce and graduate education, and posts about other items of interest to MLA members.'
+		CAPTION='Rosemary G. Feal is the executive director of the MLA. Her blog features columns from the <em>MLA Newsletter</em>, resources on the academic workforce and graduate education, and posts about other items of interest to MLA members.'
 
 		# add the widgets
 		for WIDGET in archives categories pages recent-posts; do wp widget add $WIDGET sidebar1 $URL; done 

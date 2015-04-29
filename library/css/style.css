@@ -2024,6 +2024,10 @@ SIDEBARS & ASIDES
   font-size: 85%;
   font-style: italic;
 }
+.sidebar .sidebar-caption em {
+  /* italics within italics = not italic */
+  font-style: normal;
+}
 
 .widget ul {
   margin-left: 0;
