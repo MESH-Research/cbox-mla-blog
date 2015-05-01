@@ -1,254 +1,108 @@
+/******************************************************************
+Theme Name: cbox-mla-blog
+Theme URI: https://github.com/mlaa/cbox-mla-blog
+Description: A theme for official MLA blogs on the MLA Commons. 
+Author: Jonathan Reeve
+Author URI: http://jonreeve.com
+Version: 1.7
+Tags: fluid-layout, responsive-layout, accessibility-ready, translation-ready, microformats, rtl-language-support
+
+License: WTFPL
+License URI: http://sam.zoy.org/wtfpl/
+Are You Serious? Yes.
+
+
+MAKE SURE TO READ BELOW BEFORE GETTING STARTED FOR THE FIRST TIME!
+------------------------------------------------------------------
+
+You may be thinking…
+
+WHOA, WHOA, WHOA…WHAT HAPPENED HERE?
+
+But before you freak out, let me take a few minutes to explain.
+
+Bones now uses Sass by default. If you prefer using regular CSS,
+then feel free to modify this theme how you like and keep a copy
+as your own personal starting point.
+
+DON'T DISMISS IT JUST YET THOUGH, USING Sass ISN'T AS COMPLICATED AS YOU THINK.
+
+It does take a few minutes to wrap your head around, but it will all
+be worth it. Need a quick intro? Here are a few quick reads:
+
+http://simplebits.com/notebook/2013/11/13/sass-book/ (BUY THIS)
+http://cognition.happycog.com/article/preprocess-this
+http://viget.com/inspire/sass-a-designers-perspective
+http://ianstormtaylor.com/oocss-plus-sass-is-the-best-way-to-css/
+http://css-tricks.com/sass-style-guide/
+http://net.tutsplus.com/tutorials/html-css-techniques/developing-with-sass-and-chrome-devtools/
+
+I would HIGHLY RECOMMEND, if you are going to be working with Sass, that you work locally.
+The browsers don't understand Sass and compiling it on the server takes a bit
+of a setup.
+
+That being said, here are a few MUST HAVE TOOLS for working with a
+pre-processor: (You really only need one of them)
+
+CodeKit: (Highly Recommended)
+http://incident57.com/codekit/
+
+Compass App: (Windows / Mac Users)
+http://compass.handlino.com/
+
+These applications compile Sass into valid CSS. This
+way you can keep your production files easy to read and your
+CSS minified and speedy. Simply set the output to the
+library/css folder and you are all set. It's a thing of beauty.
+
+You can also setup auto compiling with Grunt or using Terminal on
+OSX. It's a bit complicated to setup so if you aren't familiar
+with it, just get one of the automated applications.
+
+---------------------------------------------------------------
+
+Remember, once you download Bones it's up to you how to use it,
+so go nuts. Set things up and develop in a way that's easiest for
+you. If using Sass is still a bit confusing for you, then remove it
+and customize this template as you see fit.
+
+If you're a bit uneasy about using Sass or just want a familiar setup,
+take a few minutes and think about how much better a developer you
+can become by just TRYING out new technologies. It may be tough at
+first but it WILL make you a better developer. TRUST ME ON THIS. Give
+it a week, maybe two, and you will never go back.
+
+If you STILL can't get on board and want to jump ship, that's cool.
+Bones is not for everyone and that's ok, I mean I'm not hurt by it,
+whatever, I never liked you anyway. Here are some other alternatives
+if you're looking for a blank starter theme. I'll just be here waiting
+by the window, in case you ever decide to come back.
+
+http://roots.io/starter-theme (way more complex but has a ton of cool features)
+http://html5reset.org (super clean and great markup)
+https://github.com/viewportindustries/starkers (not sure if it's still active, but still good)
+
+That's it. It's time to jump in and get your hands dirty.
+Seriously, why are you still reading this? Get to work!
+If you have any issues or problems, you can create an issue on github
+or find me on Twitter: @eddiemachado (SHAMELESS PLUG!).
+
+Happy Developing!
+
+(When you're done, you may want to remove all this nonsense before
+passing it along to your client.)
+
+******************************************************************/
+
 /*
-Theme Name: MLA Commons Official Network Blog
-Theme URI: http://communitystructure.com
-Description: A blog theme for all MLA Commons blog sites.
-Version: 1.0-beta1
-Author: Amy Pospiech
-Author URI: http://communitystructure.com
-Tags: buddypress, infinity
-Template: cbox-theme
+WordPress Probz
+So Theme Check (http://wordpress.org/plugins/theme-check/)
+is constantly telling me that it needs these classes in the CSS even
+though they are in the REAL stylesheet in library/css/style.css.
+So we're gonna drop these here to keep it happy.
+Great work, Theme Check (eye roll)
 */
 
-/*------------------------------------------------
-  Add your custom design styles to THIS file.
-
-  !!! DO NOT EDIT themes/infinity/style.css !!!
-
-  Every child, grandchild, great-grandchild theme,
-  etc must have its Template set to infinity,
-  exactly like it is shown above!
--------------------------------------------------*/
-
-@import url('../cbox-mla/style.css');  
-
-body {background:#fff; border-top:0px none;}
-body.theme-option {background-image:none;}
-
-#header { 
-	margin-top: 10px; 
-} 
-#header #site-title { 
-	border: none;
-	margin-left: 10px; 
-} 
-#logo-main, #logo-menu-wrap { 
-	display: inline-block; 
-} 
-.row { 
-	width: 1050px; 
-} 
-.main-wrap { 
-	margin-top: 20px; 
-} 
-#site-title a, h1.post-title, h2.post-title a, h1.page-title, { 
-	margin-top: 8px; 
-} 
-#site-title a, h1.post-title, h2.post-title a, h1.page-title, .widget h4, h3#reply-title, h3#comments-title { 
-	color: #000; 
-	font-family: Lexia, serif; 
-} 
-
-/* not so big, headers */ 
-h3 { 
-	font-size: 1.6em; 
-} 
-
-/* custom styles for revised MLA Forums post in Exec Council */
-.mla-forums ul {
-	margin-left: 30px;
-}
-.mla-forums.forums-list h1 {
-	margin: 0 0 1em 0;
-	line-height: 1.1em;
-}
-.mla-forums.forums-list h3 {
-	position: sticky;
-	top: 0;
-	margin: 2em 0 0.5em 0;
-	padding: 0;
-	line-height: 1.1em;
-	background-color: #fff;
-}
-.mla-forums.forums-list h4 {
-	margin: 1.5em 0 0.75em 0;
-	color: #333;
-	line-height: 1.1em;
-}
-.entry .mla-forums.forums-list ul {
-	padding-left: 0; /* flush left! */
-	margin-left: 0;
-}
-.mla-forums.forums-list li {
-	list-style-type: none;
-	line-height: 1.9em;
-}
-.entry .mla-forums ul.toc {
-margin-left: 30px;
-}
-.entry .mla-forums ul.toc li {
-	list-style-type: disc;
-}
-.entry .mla-forums .introduction ul ul {
-	margin: 1em 2em;
-	list-style-type: square;
-}
-.entry .mla-forums.faq h3 {
-	font-size: 110%;
-}
-/* Key */
-.mla-forums #key {
-	margin: 2em 0;
-	padding-bottom: 0.75em;
-	border-bottom: solid 1px #999;
-}
-.mla-forums #key h3 {
-	margin: 0 0 1em 0;
-	padding-bottom: 0.5em;
-	border-bottom: solid 1px #999;
-}
-/* Tags */
-.mla-forums .type, .qtip-content span, .category {
-	display: inline-block;
-	margin: 0 2px;
-	padding: 4px 0.25em;
-	color: #666;
-	font-size: 0.9em;
-	line-height: 0.9em;
-	border: solid 1px #ccc;
-	border-radius: 4px;
-	font-weight: normal;
-}
-.mla-forums .qtip-content span {
-	margin-left: 0.5em;
-}
-/* Group types */
-.mla-forums .merged {
-	color: #009;
-	font-weight: bold;
-}
-.mla-forums .split {
-	color: #060;
-	font-weight: bold;
-}
-.mla-forums .new {
-	color: #f60;
-	font-weight: bold;
-}
-.mla-forums .reconfigured {
-	color: #90d;
-	font-weight: bold;
-}
-/* Enhancements */
-.mla-forums #main p, #key p {
-	margin: 0 0 0.5em 0;
-}
-.mla-forums #main em {
-	padding: 0 0.25em;
-}
-.mla-forums .related {
-	position: relative;
-	top: -1px;
-	padding-left: 0.5em;
-	color: #999;
-	font-size: 0.9em;
-}
-.mla-forums .category {
-	margin: 0 5px 0 0;
-	color: #333;
-}
-/* Intro and FAQ */
-.mla-forums #letter, #faq {
-	font-family: "Trebuchet MS", sans-serif;
-	line-height: 1.45em;
-}
-.mla-forums #faq ol li {
-	margin-bottom: 0.25em;
-}
-
-/* Chrome for Windows doesn't like the above font. */ 
-.chrome-win #site-title a, .chrome-win h1.post-title, .chrome-win h2.post-title a, .chrome-win h1.page-title, .chrome-win .widget h4, .chrome-win h3#reply-title, .chrome-win h3#comments-title { 
-	font-family: "Trebuchet MS", sans-serif; 
-}
-
-h2.post-title a { 
-	font-size: 24px; 
-} 
-h2.post-title a:hover { 
-	color: #000; 
-} 
-#site-title a { 
-	font-size: 36px; 
-	position: relative; 
-	top: 7px; 
-	left: 10px; 
-} 
-.post-title { 
-	margin-bottom: 5px; 
-} 
-.entry { 
-	margin-top: 10px; 
-} 
-.entry p, .entry li { 
-	line-height: 1.4em; 
-} 
-footer.post-meta-data { 
-	/* as far as I can tell, this doesn't actually exist in blogs,
-	 * so it's just taking up space. 
-	 */ 
-	display: none;
-} 
-#searchform input#s { 
-	width: 69%; 
-} 
-.widget h4 { 
-	margin: 10px;
-} 
-.widget ul { 
-	margin-top: 5px; 
-	margin-left: 25px; 
-} 
-#sidebar li a { 
-	font-size: 14px; 
-} 
-.category-box { 
-	margin-bottom: 25px; 
-} 
-/* Don't show "Log in to Reply," as it's redundant and clutters up the page */ 
-.comment-reply-login { 
-	display: none; 
-} 
-@media only screen and (max-width: 768px) {
-	/* Lots of trickery needed to center the logo */ 
-	.post .author-avatar { 
-		display: none; 
-	} 
-	.top-wrap { 
-		margin-top: 50px; 
-	} 
-	.main-wrap { 
-		margin-top: 10px; 
-	} 
-	#logo-main, #logo-main a { 
-		display: inline-block; 
-		width: 100%; 
-	} 
-	#logo-main a { 
-		text-align: center; 
-	} 
-	#logo-menu-wrap { 
-		display: block; 
-	} 
-	#header #site-title { 
-		text-align: center; 
-		margin: 0; 
-	} 
-	#header #site-title a { 
-		position: inherit;
-	} 
-	.post-category, .time-posted { 
-		display: inline-block; 
-	} 
-	.mobile-menu-container select {
-		display: none !important;
-	} 
-} 
+.sticky {}          /* DO NOT EDIT THIS */
+.gallery-caption {} /* THESE ARE USELESS */
+.bypostauthor {}    /* THEY ARE ONLY TO KEEP THEME CHECK HAPPY */
