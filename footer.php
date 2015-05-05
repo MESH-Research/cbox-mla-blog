@@ -21,7 +21,7 @@ New York, NY 10004<br>
 	
 				<div class="five columns footer-widget" id="footer-widget-middle">
 					<?php
-						the_widget('WP_Widget_RSS', 'url=http://faq.commons.mla.org/&title=FAQ&items=5', 'before_title=<h4>&after_title=</h4>');
+						the_widget('WP_Widget_RSS', 'url=https://faq.commons.mla.org/feed/&title=FAQ&items=5', 'before_title=<h4>&after_title=</h4>');
 					?>
 				</div>
 	
