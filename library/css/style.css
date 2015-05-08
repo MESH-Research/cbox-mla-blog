@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /*! Made with Bones: http://themble.com/bones :) */
 /******************************************************************
 Site Name:
@@ -2046,6 +2047,30 @@ SIDEBARS & ASIDES
   margin-bottom: 1.5em;
 }
 
+#searchform #searchicon, #searchform #s {
+  /* make them line up */
+  display: inline-block;
+}
+#searchform #searchicon:before {
+  font-family: dashIcons;
+  content: "";
+  position: relative;
+  left: 15px;
+  top: 39px;
+}
+#searchform input[type=text] {
+  border: 1px solid #eee;
+  background-color: #eee;
+  border-top: 2px solid #ddd;
+  border-left: 2px solid #ddd;
+  padding-left: 35px;
+  height: 48px;
+}
+#searchform input[type=submit], #searchform label {
+  display: none;
+  /* users can press enter instead of clicking "submit */
+}
+
 /*********************
 FOOTER STYLES
 *********************/
@@ -2352,6 +2377,13 @@ you can add resource intensive styles.
   .widget {
     padding: 0 10px;
     margin: 2.2em 0 1em;
+  }
+  .widget.widget_search {
+    /* shameful hack: this accounts for 
+     * relative positioning that places
+     * the search icon in the search bar. 
+     */
+    margin: 2em 0 3em;
   }
   .widget ul li {
     margin-bottom: 1em;

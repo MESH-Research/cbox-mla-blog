@@ -926,6 +926,30 @@ SIDEBARS & ASIDES
 		margin-bottom: 1.5em;
 	}
 
+#searchform { 
+	#searchicon, #s { 
+		/* make them line up */ 
+		display: inline-block;
+	} 
+	#searchicon:before { 
+		font-family: dashIcons; 
+		content: ""; 
+		position: relative;
+		left: 15px;
+		top: 39px; 
+	} 
+	input[type=text] {
+		border: 1px solid #eee;
+		background-color: #eee; 
+		border-top: 2px solid #ddd; 
+		border-left: 2px solid #ddd; 
+		padding-left: 35px; 
+		height: 48px; 
+	}
+	input[type=submit], label { 
+		display: none; /* users can press enter instead of clicking "submit */ 
+	} 
+} 
 /*********************
 FOOTER STYLES
 *********************/

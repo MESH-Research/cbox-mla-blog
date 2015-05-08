@@ -158,6 +158,14 @@ SIDEBARS & ASIDES
 		padding: 0 10px;
 		margin: 2.2em 0 1em;
 
+		&.widget_search { 
+			/* shameful hack: this accounts for 
+			 * relative positioning that places
+			 * the search icon in the search bar. 
+			 */ 
+			margin: 2em 0 3em; 
+		} 
+
 		ul {
 			li {
 				margin-bottom: 1em;

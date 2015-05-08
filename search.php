@@ -51,10 +51,7 @@
 										<section class="entry-content">
 											<p><?php _e( 'Try your search again.', 'cbox-mla-blog' ); ?></p>
 										</section>
-										<footer class="article-footer">
-												<p><?php _e( 'This is the error message in the search.php template.', 'cbox-mla-blog' ); ?></p>
-										</footer>
-									</article>
+								</article>
 
 							<?php endif; ?>
 
