@@ -2,9 +2,13 @@
 # About this Theme
 This is a theme designed for official MLA blogs on the _MLA Commons_. It's based on Bones, and was initialized using the yeoman generator wp-bones.  
 
-# Content Changes Required for 2.0 Rollout
+# Content Changes Required for 2.3.1 Rollout
 
-Run the script `rollout.sh` with the site to apply this theme to, like `rollout.sh execdirector`. 
+Run the script `add-search-bars.sh`:
+ 1. edit the script so that it has the correct SERVER variable
+ 2. run it like this: 
+
+ for site in president execdirector executivecouncil news faq convention pmla; do ./add-search-bars.sh $site; done
 
 # Bones
 A Lightweight Wordpress Development Theme
