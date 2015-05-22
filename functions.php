@@ -115,14 +115,14 @@ new image size.
 
 /************* THEME CUSTOMIZE *********************/
 
-/* 
+/*
   A good tutorial for creating your own Sections, Controls and Settings:
   http://code.tutsplus.com/series/a-guide-to-the-wordpress-theme-customizer--wp-33722
-  
+
   Good articles on modifying the default options:
   http://natko.com/changing-default-wordpress-theme-customization-api-sections/
   http://code.tutsplus.com/tutorials/digging-into-the-theme-customizer-components--wp-27162
-  
+
   To do:
   - Create a js for the postmessage transport method
   - Create some sanitize functions to sanitize inputs
@@ -132,7 +132,7 @@ new image size.
 function bones_theme_customizer($wp_customize) {
   // $wp_customize calls go here.
   //
-  // Uncomment the below lines to remove the default customize sections 
+  // Uncomment the below lines to remove the default customize sections
 
   // $wp_customize->remove_section('title_tagline');
   // $wp_customize->remove_section('colors');
@@ -142,7 +142,7 @@ function bones_theme_customizer($wp_customize) {
 
   // Uncomment the below lines to remove the default controls
   // $wp_customize->remove_control('blogdescription');
-  
+
   // Uncomment the following to change the default section titles
   // $wp_customize->get_section('colors')->title = __( 'Theme Colors' );
   // $wp_customize->get_section('background_image')->title = __( 'Images' );
@@ -199,19 +199,9 @@ function bones_comments( $comment, $args, $depth ) {
   <div id="comment-<?php comment_ID(); ?>" <?php comment_class('cf'); ?>>
     <article  class="cf">
       <header class="comment-author vcard">
-        <?php
-        /*
-          this is the new responsive optimized comment image. It used the new HTML5 data-attribute to display comment gravatars on larger screens only. What this means is that on larger posts, mobile sites don't have a ton of requests for comment images. This makes load time incredibly fast! If you'd like to change it back, just replace it with the regular wordpress gravatar call:
-          echo get_avatar($comment,$size='32',$default='<path_to_url>' );
-        */
-        ?>
-        <?php // custom gravatar call ?>
-        <?php
-          // create variable
-          $bgauthemail = get_comment_author_email();
-        ?>
-        <img data-gravatar="//www.gravatar.com/avatar/<?php echo md5( $bgauthemail ); ?>?s=40" class="load-gravatar avatar avatar-48 photo" height="40" width="40" src="<?php echo get_template_directory_uri(); ?>/library/images/nothing.gif" />
-        <?php // end custom gravatar call ?>
+
+	<?php echo get_avatar( $comment, $size='45' ); ?>
+
         <?php printf(__( '<cite class="fn">%1$s</cite> %2$s', 'cbox-mla-blog' ), get_comment_author_link(), edit_comment_link(__( '(Edit)', 'cbox-mla-blog' ),'  ','') ) ?>
         <time datetime="<?php echo comment_time('Y-m-j'); ?>"><a href="<?php echo htmlspecialchars( get_comment_link( $comment->comment_ID ) ) ?>"><?php comment_time(__( 'F jS, Y', 'cbox-mla-blog' )); ?> </a></time>
 
