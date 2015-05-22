@@ -244,6 +244,17 @@ function bones_fonts() {
 
 add_action('wp_enqueue_scripts', 'bones_fonts');
 
-
+/**
+ * This function wraps get_the_author_link so that we
+ * can customize which authors we display here. Following
+ * #46, we want to hide admin authors like me and Chris.
+ */
+function mla_get_the_author_link( $id ) {
+	if ( 1 == $id || 3164 == $id ) {
+		return '';
+	} else {
+		return ' by ' .get_the_author_link( $id );
+	}
+}
 
 /* DON'T DELETE THIS CLOSING TAG */ ?>
