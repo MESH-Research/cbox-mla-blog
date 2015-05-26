@@ -1,7 +1,7 @@
 # verbose debugging
 set -ex
 
-SERVER=london.dev
+SERVER=cooper.mlacommons.org
 
 # Get site name from URL parameter. 
 # I.e., call this script with "./add-search-bars.sh faq"
