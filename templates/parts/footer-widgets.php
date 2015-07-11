@@ -12,7 +12,7 @@
  */
 ?>
 <?php if ( is_active_sidebar( 'Footer Left' ) || is_active_sidebar( 'Footer Middle' ) || is_active_sidebar( 'Footer Right' )  ) : ?>
-	<div class="footer-widgets row">			
+	<div class="footer-widgets row">
 
 			<!-- footer widgets -->
 				<div class="five columns footer-widget " id="footer-widget-left">
@@ -20,8 +20,8 @@
 						the_widget('WP_Widget_Text', 'title=Contact Us&text=<ul class="contact">
 <li class="address"><span class="smalltext">Our mailing address is:</span><br>
 <a href="http://www.mla.org">Modern Language Association</a><br>
-26 Broadway, 3rd floor<br>
-New York, NY 10004<br>
+85 Broad Street, suite 500<br>
+New York, NY 10004-2434<br>
 </li>
 <li class="email"><a class="email" href="mailto:commons@mla.org">commons@mla.org</a></li>
 <li class="address"><span class="smalltext">On the Web:</span> <a href="http://www.mla.org">mla.org</a></li>
@@ -29,14 +29,14 @@ New York, NY 10004<br>
 </ul>', 'before_title=<h4>&after_title=</h4>');
 					?>
 				</div>
-	
-	
+
+
 				<div class="five columns footer-widget" id="footer-widget-middle">
 					<?php
 						the_widget('WP_Widget_RSS', 'url=https://faq.commons.mla.org/feed/&title=FAQ&items=6', 'before_title=<h4>&after_title=</h4>');
 					?>
 				</div>
-	
+
 
 				<div class="six columns footer-widget " id="footer-widget-right">
 					<?php
