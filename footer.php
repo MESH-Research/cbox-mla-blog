@@ -29,9 +29,9 @@ New York, NY 10004-2434<br>
 				<div class="six columns footer-widget " id="footer-widget-right">
 					<?php
 						the_widget('WP_Widget_Text', 'title=Get Help&text=<ul>
-<li>Learn more <a href="http://cather.mlacommons.org/about/">About <em>MLA Commons</em></a>.</li>
-<li>See <a href="http://cather.mlacommons.org/docs/getting-started/">Getting Started</a>.</li>
-<li>Join the <a href="http://cather.mlacommons.org/groups/welcome-group/">Help and How-To Group</a>.</li>
+<li>Learn more <a href="https://commons.mla.org/about/">About <em>MLA Commons</em></a>.</li>
+<li>See <a href="https://commons.mla.org/docs/getting-started/">Getting Started</a>.</li>
+<li>Join the <a href="https://commons.mla.org/groups/welcome-group/">Help and How-To Group</a>.</li>
 <li>E-mail us at <a href="mailto:commons@mla.org" class="email">commons@mla.org</a>.</li></ul>', 'before_title=<h4>&after_title=</h4>');
 					?>
 				</div>
@@ -40,7 +40,7 @@ New York, NY 10004-2434<br>
 
 <div style="clear:both;"></div>
 
-					<p class="source-org copyright">Copyright &copy; 2012–2015 MLA. Powered by <a href="http://commonsinabox.org">Commons In A Box</a>. Based on a design by <a href="http://communitystructure.com">Community Structure</a>.<br/><a href="http://commons.mla.org/terms/">Terms of Service</a> • <a href="http://commons.mla.org/privacy/">Privacy Policy</a> • <a href="http://commons.mla.org/guidelines/">Guidelines for Participation</a></p>
+					<p class="source-org copyright">Copyright &copy; 2012–2015 MLA. Powered by <a href="http://commonsinabox.org">Commons In A Box</a>. Based on a design by <a href="http://communitystructure.com">Community Structure</a>.<br/><a href="https://commons.mla.org/terms/">Terms of Service</a> • <a href="https://commons.mla.org/privacy/">Privacy Policy</a> • <a href="https://commons.mla.org/guidelines/">Guidelines for Participation</a></p>
 
 			</footer>
 
