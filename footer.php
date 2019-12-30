@@ -20,9 +20,15 @@ New York, NY 10004-2434<br>
 
 
 				<div class="five columns footer-widget" id="footer-widget-middle">
-					<?php
-						the_widget('WP_Widget_RSS', 'url=https://faq.commons.mla.org/feed/&title=FAQ&items=5', 'before_title=<h4>&after_title=</h4>');
-					?>
+				   <?php
+					$rss_options = array( 
+						'title' => 'Test',  // Title of the Widget
+					        'url' => 'https://faq.mla.hcommons.org/feed/', // URL of the RSS Feed
+						'items' => 5, // Number of items to be displayed
+					);
+
+					the_widget('WP_Widget_RSS', $rss_options, 'before_title=<h4>&after_title=</h4>');
+				    ?>
 				</div>
 
 
@@ -52,3 +58,4 @@ New York, NY 10004-2434<br>
 	</body>
 
 </html> <!-- end of site. what a ride! -->
+
