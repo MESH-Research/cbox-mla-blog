@@ -8,7 +8,7 @@
 						the_widget('WP_Widget_Text', 'title=Contact Us&text=<ul class="contact">
 <li class="address"><span class="smalltext">Our mailing address is:</span><br>
 <a href="http://www.mla.org">Modern Language Association</a><br>
-85 Broad Street, suite 500<br>
+85 Broad Street<br>
 New York, NY 10004-2434<br>
 </li>
 <li class="email"><a class="email" href="mailto:commons@mla.org">commons@mla.org</a></li>
